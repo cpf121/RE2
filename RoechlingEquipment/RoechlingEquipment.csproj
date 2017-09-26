@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D631C16D-655A-472B-88B7-F0088DC2DB93}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RoechlingEquipment</RootNamespace>
+    <AssemblyName>RoechlingEquipment</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Mvc.FixedDisplayModes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.FixedDisplayModes.1.0.0\lib\net40\Microsoft.Web.Mvc.FixedDisplayModes.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.20715.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\MaterialController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\ProblemController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="Content\assets\css\add-ons.min.css" />
+    <Content Include="Content\assets\css\jquery.mmenu.css" />
+    <Content Include="Content\assets\css\style.css" />
+    <Content Include="Content\assets\fonts\climacons-webfont.svg" />
+    <Content Include="Content\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\assets\fonts\weathericons-regular-webfont.svg" />
+    <Content Include="Content\assets\ico\apple-touch-icon-114x114.png" />
+    <Content Include="Content\assets\ico\apple-touch-icon-120x120.png" />
+    <Content Include="Content\assets\ico\apple-touch-icon-144x144.png" />
+    <Content Include="Content\assets\ico\apple-touch-icon-152x152.png" />
+    <Content Include="Content\assets\ico\apple-touch-icon-57x57.png" />
+    <Content Include="Content\assets\ico\apple-touch-icon-72x72.png" />
+    <Content Include="Content\assets\ico\apple-touch-icon-76x76.png" />
+    <Content Include="Content\assets\ico\apple-touch-icon.png" />
+    <Content Include="Content\assets\ico\favicon.ico" />
+    <Content Include="Content\assets\img\avatar.jpg" />
+    <Content Include="Content\assets\img\avatar1.jpg" />
+    <Content Include="Content\assets\img\avatar2.jpg" />
+    <Content Include="Content\assets\img\avatar3.jpg" />
+    <Content Include="Content\assets\img\avatar4.jpg" />
+    <Content Include="Content\assets\img\avatar5.jpg" />
+    <Content Include="Content\assets\img\avatar6.jpg" />
+    <Content Include="Content\assets\img\avatar7.jpg" />
+    <Content Include="Content\assets\img\bg1.jpg" />
+    <Content Include="Content\assets\img\browser-chrome-big.png" />
+    <Content Include="Content\assets\img\browser-firefox-big.png" />
+    <Content Include="Content\assets\img\browser-ie.png" />
+    <Content Include="Content\assets\img\browser-opera.png" />
+    <Content Include="Content\assets\img\browser-safari.png" />
+    <Content Include="Content\assets\img\flags\USA.png" />
+    <Content Include="Content\assets\img\flat-landscape.jpg" />
+    <Content Include="Content\assets\img\flat-sun.jpg" />
+    <Content Include="Content\assets\img\gallery\photo1.jpg" />
+    <Content Include="Content\assets\img\gallery\photo10.jpg" />
+    <Content Include="Content\assets\img\gallery\photo11.jpg" />
+    <Content Include="Content\assets\img\gallery\photo12.jpg" />
+    <Content Include="Content\assets\img\gallery\photo13.jpg" />
+    <Content Include="Content\assets\img\gallery\photo14.jpg" />
+    <Content Include="Content\assets\img\gallery\photo15.jpg" />
+    <Content Include="Content\assets\img\gallery\photo2.jpg" />
+    <Content Include="Content\assets\img\gallery\photo3.jpg" />
+    <Content Include="Content\assets\img\gallery\photo4.jpg" />
+    <Content Include="Content\assets\img\gallery\photo5.jpg" />
+    <Content Include="Content\assets\img\gallery\photo6.jpg" />
+    <Content Include="Content\assets\img\gallery\photo7.jpg" />
+    <Content Include="Content\assets\img\gallery\photo8.jpg" />
+    <Content Include="Content\assets\img\gallery\photo9.jpg" />
+    <Content Include="Content\assets\img\general\general-img-1.jpg" />
+    <Content Include="Content\assets\img\general\general-img-2.jpg" />
+    <Content Include="Content\assets\img\general\general-img-3.jpg" />
+    <Content Include="Content\assets\img\logo.png" />
+    <Content Include="Content\assets\img\sunny-large.jpg" />
+    <Content Include="Content\assets\js\core.min.js" />
+    <Content Include="Content\assets\js\jquery.mmenu.min.js" />
+    <Content Include="Content\assets\js\pages\activity.js" />
+    <Content Include="Content\assets\js\pages\buttons.js" />
+    <Content Include="Content\assets\js\pages\calendar.js" />
+    <Content Include="Content\assets\js\pages\charts-flot.js" />
+    <Content Include="Content\assets\js\pages\charts-other.js" />
+    <Content Include="Content\assets\js\pages\charts-xcharts.js" />
+    <Content Include="Content\assets\js\pages\font-awesome.js" />
+    <Content Include="Content\assets\js\pages\form-dropzone.js" />
+    <Content Include="Content\assets\js\pages\form-editors.js" />
+    <Content Include="Content\assets\js\pages\form-elements.js" />
+    <Content Include="Content\assets\js\pages\form-validation.js" />
+    <Content Include="Content\assets\js\pages\form-wizard.js" />
+    <Content Include="Content\assets\js\pages\form-x-editable-demo.js" />
+    <Content Include="Content\assets\js\pages\form-x-editable.js" />
+    <Content Include="Content\assets\js\pages\gallery.js" />
+    <Content Include="Content\assets\js\pages\glyphicon.js" />
+    <Content Include="Content\assets\js\pages\index.js" />
+    <Content Include="Content\assets\js\pages\invoice.js" />
+    <Content Include="Content\assets\js\pages\mailbox.js" />
+    <Content Include="Content\assets\js\pages\map-basic.js" />
+    <Content Include="Content\assets\js\pages\map-vector.js" />
+    <Content Include="Content\assets\js\pages\nestable.js" />
+    <Content Include="Content\assets\js\pages\page-404.js" />
+    <Content Include="Content\assets\js\pages\page-lockscreen.js" />
+    <Content Include="Content\assets\js\pages\page-login.js" />
+    <Content Include="Content\assets\js\pages\page-register.js" />
+    <Content Include="Content\assets\js\pages\page-timeline.js" />
+    <Content Include="Content\assets\js\pages\pricing-tables.js" />
+    <Content Include="Content\assets\js\pages\profile.js" />
+    <Content Include="Content\assets\js\pages\table-advanced.js" />
+    <Content Include="Content\assets\js\pages\table-editable.js" />
+    <Content Include="Content\assets\js\pages\table-responsive.js" />
+    <Content Include="Content\assets\js\pages\typography.js" />
+    <Content Include="Content\assets\js\pages\ui-carousels.js" />
+    <Content Include="Content\assets\js\pages\ui-elements.js" />
+    <Content Include="Content\assets\js\pages\ui-lightbox.js" />
+    <Content Include="Content\assets\js\pages\ui-modals.js" />
+    <Content Include="Content\assets\js\pages\ui-notifications.js" />
+    <Content Include="Content\assets\js\pages\ui-panels.js" />
+    <Content Include="Content\assets\js\pages\ui-portlets.js" />
+    <Content Include="Content\assets\js\pages\ui-progress-bar.js" />
+    <Content Include="Content\assets\js\pages\ui-slider.js" />
+    <Content Include="Content\assets\js\pages\weathericons.js" />
+    <Content Include="Content\assets\js\pages\widgets.js" />
+    <Content Include="Content\assets\plugins\autosize\jquery.autosize.min.js" />
+    <Content Include="Content\assets\plugins\bootkit\css\bootkit.css" />
+    <Content Include="Content\assets\plugins\bootkit\js\bootkit.js" />
+    <Content Include="Content\assets\plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.css" />
+    <Content Include="Content\assets\plugins\bootstrap-colorpicker\img\bootstrap-colorpicker\alpha.png" />
+    <Content Include="Content\assets\plugins\bootstrap-colorpicker\img\bootstrap-colorpicker\hue.png" />
+    <Content Include="Content\assets\plugins\bootstrap-colorpicker\img\bootstrap-colorpicker\saturation.png" />
+    <Content Include="Content\assets\plugins\bootstrap-colorpicker\js\bootstrap-colorpicker.js" />
+    <Content Include="Content\assets\plugins\bootstrap-datepicker\css\datepicker-theme.css" />
+    <Content Include="Content\assets\plugins\bootstrap-datepicker\css\datepicker3.css" />
+    <Content Include="Content\assets\plugins\bootstrap-datepicker\js\bootstrap-datepicker.js" />
+    <Content Include="Content\assets\plugins\bootstrap-markdown\css\bootstrap-markdown.min.css" />
+    <Content Include="Content\assets\plugins\bootstrap-markdown\js\bootstrap-markdown.js" />
+    <Content Include="Content\assets\plugins\bootstrap-markdown\js\markdown.js" />
+    <Content Include="Content\assets\plugins\bootstrap-markdown\js\to-markdown.js" />
+    <Content Include="Content\assets\plugins\bootstrap-tagsinput\css\bootstrap-tagsinput.css" />
+    <Content Include="Content\assets\plugins\bootstrap-tagsinput\js\bootstrap-tagsinput.js" />
+    <Content Include="Content\assets\plugins\bootstrap-timepicker\css\bootstrap-timepicker.css" />
+    <Content Include="Content\assets\plugins\bootstrap-timepicker\js\bootstrap-timepicker.js" />
+    <Content Include="Content\assets\plugins\chart-master\js\Chart.js" />
+    <Content Include="Content\assets\plugins\chosen\js\chosen.jquery.min.js" />
+    <Content Include="Content\assets\plugins\d3\js\d3.min.js" />
+    <Content Include="Content\assets\plugins\dropzone\css\dropzone.css" />
+    <Content Include="Content\assets\plugins\dropzone\images\spritemap.png" />
+    <Content Include="Content\assets\plugins\dropzone\js\dropzone.min.js" />
+    <Content Include="Content\assets\plugins\easypiechart\js\jquery.easypiechart.min.js" />
+    <Content Include="Content\assets\plugins\editable\css\bootstrap-editable.css" />
+    <Content Include="Content\assets\plugins\editable\inputs-ext\address\address.min.js" />
+    <Content Include="Content\assets\plugins\editable\inputs-ext\typeaheadjs\typeaheadjs.min.js" />
+    <Content Include="Content\assets\plugins\editable\js\bootstrap-editable.min.js" />
+    <Content Include="Content\assets\plugins\flot-tooltip\js\jquery.flot.tooltip.js" />
+    <Content Include="Content\assets\plugins\flot\js\jquery.flot.min.js" />
+    <Content Include="Content\assets\plugins\flot\js\jquery.flot.pie.min.js" />
+    <Content Include="Content\assets\plugins\flot\js\jquery.flot.resize.min.js" />
+    <Content Include="Content\assets\plugins\flot\js\jquery.flot.spline.min.js" />
+    <Content Include="Content\assets\plugins\flot\js\jquery.flot.stack.min.js" />
+    <Content Include="Content\assets\plugins\flot\js\jquery.flot.time.min.js" />
+    <Content Include="Content\assets\plugins\fullcalendar\css\fullcalendar.css" />
+    <Content Include="Content\assets\plugins\fullcalendar\js\fullcalendar.js" />
+    <Content Include="Content\assets\plugins\gauge\js\gauge.min.js" />
+    <Content Include="Content\assets\plugins\gmaps\gmaps.js" />
+    <Content Include="Content\assets\plugins\isotope\css\jquery.isotope.css" />
+    <Content Include="Content\assets\plugins\isotope\js\jquery.isotope.js" />
+    <Content Include="Content\assets\plugins\jquery-datatables-bs3\css\datatables.css" />
+    <Content Include="Content\assets\plugins\jquery-datatables-bs3\js\datatables.js" />
+    <Content Include="Content\assets\plugins\jquery-datatables\extras\TableTools\js\dataTables.tableTools.min.js" />
+    <Content Include="Content\assets\plugins\jquery-datatables\media\js\jquery.dataTables.js" />
+    <Content Include="Content\assets\plugins\jquery-ui-touch-punch\js\jquery.ui.touch-punch.js" />
+    <Content Include="Content\assets\plugins\jquery-ui\css\jquery-ui-1.10.4.custom.css" />
+    <Content Include="Content\assets\plugins\jquery-ui\css\jquery-ui-1.10.4.min.css" />
+    <Content Include="Content\assets\plugins\jquery-ui\js\jquery-ui-1.10.4.custom.js" />
+    <Content Include="Content\assets\plugins\jquery-ui\js\jquery-ui-1.10.4.min.js" />
+    <Content Include="Content\assets\plugins\jquery-validation\js\jquery.validate.js" />
+    <Content Include="Content\assets\plugins\jquery\js\jquery.js" />
+    <Content Include="Content\assets\plugins\jqvmap\data\jquery.vmap.sampledata.js" />
+    <Content Include="Content\assets\plugins\jqvmap\jquery.vmap.js" />
+    <Content Include="Content\assets\plugins\jqvmap\jqvmap.css" />
+    <Content Include="Content\assets\plugins\jqvmap\maps\continents\jquery.vmap.africa.js" />
+    <Content Include="Content\assets\plugins\jqvmap\maps\continents\jquery.vmap.asia.js" />
+    <Content Include="Content\assets\plugins\jqvmap\maps\continents\jquery.vmap.australia.js" />
+    <Content Include="Content\assets\plugins\jqvmap\maps\continents\jquery.vmap.europe.js" />
+    <Content Include="Content\assets\plugins\jqvmap\maps\continents\jquery.vmap.north-america.js" />
+    <Content Include="Content\assets\plugins\jqvmap\maps\continents\jquery.vmap.south-america.js" />
+    <Content Include="Content\assets\plugins\jqvmap\maps\jquery.vmap.world.js" />
+    <Content Include="Content\assets\plugins\justgage\js\justgage.1.0.1.min.js" />
+    <Content Include="Content\assets\plugins\magnific-popup\css\magnific-popup.css" />
+    <Content Include="Content\assets\plugins\magnific-popup\js\magnific-popup.js" />
+    <Content Include="Content\assets\plugins\maskedinput\js\jquery.maskedinput.js" />
+    <Content Include="Content\assets\plugins\maskedinput\js\jquery.maskedinput.min.js" />
+    <Content Include="Content\assets\plugins\mockjax\js\jquery.mockjax.min.js" />
+    <Content Include="Content\assets\plugins\modernizr\js\modernizr.js" />
+    <Content Include="Content\assets\plugins\moment\js\moment.js" />
+    <Content Include="Content\assets\plugins\moment\js\moment.min.js" />
+    <Content Include="Content\assets\plugins\morris\css\morris.css" />
+    <Content Include="Content\assets\plugins\morris\js\morris.min.js" />
+    <Content Include="Content\assets\plugins\nanoscroller\js\nanoscroller.js" />
+    <Content Include="Content\assets\plugins\owl-carousel\css\owl.carousel.css" />
+    <Content Include="Content\assets\plugins\owl-carousel\css\owl.theme.css" />
+    <Content Include="Content\assets\plugins\owl-carousel\js\owl.carousel.js" />
+    <Content Include="Content\assets\plugins\placeholder\js\jquery.placeholder.min.js" />
+    <Content Include="Content\assets\plugins\pnotify\css\pnotify.custom.css" />
+    <Content Include="Content\assets\plugins\pnotify\js\pnotify.custom.js" />
+    <Content Include="Content\assets\plugins\raphael\js\raphael.min.js" />
+    <Content Include="Content\assets\plugins\scrollbar\css\mCustomScrollbar.css" />
+    <Content Include="Content\assets\plugins\scrollbar\js\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="Content\assets\plugins\select2\css\select2-bootstrap.min.css" />
+    <Content Include="Content\assets\plugins\select2\css\select2.css" />
+    <Content Include="Content\assets\plugins\select2\css\select2.min.css" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\ar.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\az.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\bg.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\ca.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\cs.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\da.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\de.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\el.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\en.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\es.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\et.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\eu.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\fa.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\fi.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\fr.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\gl.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\he.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\hi.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\hr.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\hu.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\id.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\is.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\it.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\ja.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\km.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\ko.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\lt.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\lv.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\mk.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\ms.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\nb.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\nl.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\pl.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\pt-BR.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\pt.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\ro.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\ru.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\sk.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\sr-Cyrl.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\sr.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\sv.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\th.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\tr.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\uk.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\vi.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\zh-CN.js" />
+    <Content Include="Content\assets\plugins\select2\js\i18n\zh-TW.js" />
+    <Content Include="Content\assets\plugins\select2\js\select2.full.js" />
+    <Content Include="Content\assets\plugins\select2\js\select2.full.min.js" />
+    <Content Include="Content\assets\plugins\select2\js\select2.js" />
+    <Content Include="Content\assets\plugins\select2\js\select2.min.js" />
+    <Content Include="Content\assets\plugins\select2\select2.css" />
+    <Content Include="Content\assets\plugins\select2\select2.js" />
+    <Content Include="Content\assets\plugins\select2\select2.png" />
+    <Content Include="Content\assets\plugins\sparkline\js\jquery.sparkline.min.js" />
+    <Content Include="Content\assets\plugins\store-js\js\store.js" />
+    <Content Include="Content\assets\plugins\summernote\css\summernote-bs3.css" />
+    <Content Include="Content\assets\plugins\summernote\css\summernote.css" />
+    <Content Include="Content\assets\plugins\summernote\js\summernote.js" />
+    <Content Include="Content\assets\plugins\touchpunch\js\jquery.ui.touch-punch.min.js" />
+    <Content Include="Content\assets\plugins\wizard\js\jquery.bootstrap.wizard.min.js" />
+    <Content Include="Content\assets\plugins\xcharts\css\xcharts.min.css" />
+    <Content Include="Content\assets\plugins\xcharts\js\xcharts.min.js" />
+    <Content Include="Content\assets\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\assets\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\assets\vendor\css\animate.min.css" />
+    <Content Include="Content\assets\vendor\css\pace.preloader.css" />
+    <Content Include="Content\assets\vendor\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Content\assets\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\assets\vendor\js\jquery-2.1.1.min.js" />
+    <Content Include="Content\assets\vendor\js\jquery-migrate-1.2.1.min.js" />
+    <Content Include="Content\assets\vendor\js\jquery.min.js" />
+    <Content Include="Content\assets\vendor\js\pace.min.js" />
+    <Content Include="Content\assets\vendor\skycons\css\skycons.css" />
+    <Content Include="Content\assets\vendor\skycons\fonts\weathericons-regular-webfont.svg" />
+    <Content Include="Content\assets\vendor\skycons\js\skycons.js" />
+    <Content Include="Content\Home\AdUser.js" />
+    <Content Include="Content\Home\Department.js" />
+    <Content Include="Content\Home\DepartmentEdit.js" />
+    <Content Include="Content\Home\login.js" />
+    <Content Include="Content\Home\roechling_logo_print_de.png" />
+    <Content Include="Content\Material\Material.js" />
+    <Content Include="Content\Problem\Problem.js" />
+    <Content Include="Content\Style\treeStyle.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\uploads\" />
+    <Folder Include="Content\Js\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj">
+      <Project>{cff99e6b-9d1f-4c42-b040-16ce8b0f856c}</Project>
+      <Name>Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{3e54e17d-031a-4ac6-80d1-02dc298263df}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{2f4684b7-50a1-4ae2-882f-c28239fce44a}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Resources\Resources.csproj">
+      <Project>{7e9be478-5fe9-415b-b64c-0c4413c6db0c}</Project>
+      <Name>Resources</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\assets\fonts\climacons-webfont.eot" />
+    <Content Include="Content\assets\fonts\climacons-webfont.ttf" />
+    <Content Include="Content\assets\fonts\climacons-webfont.woff" />
+    <Content Include="Content\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\assets\fonts\FontAwesome.otf" />
+    <Content Include="Content\assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\assets\fonts\weathericons-regular-webfont.eot" />
+    <Content Include="Content\assets\fonts\weathericons-regular-webfont.ttf" />
+    <Content Include="Content\assets\fonts\weathericons-regular-webfont.woff" />
+    <Content Include="Content\assets\fonts\WeatherIcons-Regular.otf" />
+    <Content Include="Content\assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\assets\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\assets\vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\assets\vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\assets\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\assets\vendor\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Content\assets\vendor\skycons\fonts\weathericons-regular-webfont.eot" />
+    <Content Include="Content\assets\vendor\skycons\fonts\weathericons-regular-webfont.ttf" />
+    <Content Include="Content\assets\vendor\skycons\fonts\weathericons-regular-webfont.woff" />
+    <Content Include="Content\assets\vendor\skycons\fonts\WeatherIcons-Regular.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_Main.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_Setting.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Create.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Search.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Login\LoginPage.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\AdSetUsers.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\AdSetIndex.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\AdSetDepartments.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Material\MaterialIndex.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_Empty.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\DepartmentManagerList.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\DepartmentCreate.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Material\AddOrUpdate.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\DepartmentEdit.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Controllers\Test.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Material\Search.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Material\UpLoadFile.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\AdUser.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Problem\ProblemIndex.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Problem\ProblemInfoPage.cshtml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1931/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

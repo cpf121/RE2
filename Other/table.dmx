@@ -1,0 +1,6675 @@
+<?xml version="1.0" encoding="GB2312"?>
+<CTOXML>
+
+<DataModels>
+  <TableCount>22</TableCount>
+  <Count>3</Count>
+</DataModels>
+
+
+<DataModels_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>RoechlingEquipmentBase</Name>
+  <CreateDate>2017/9/6 23:22:14</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DefDbEngine>SQLSERVER</DefDbEngine>
+  <DbConnectStr>TCtMetaSqlsvrDb</DbConnectStr>
+  <ConfigStr>DrawerWidth=1366
+DrawerHeight=2049
+WorkAreaColor=16777215
+SelectedColor=-16777203
+DefaultObjectColor=15921906
+DefaultTitleColor=255
+DefaultPKColor=16711935
+DefaultFKColor=16711680
+DefaultBorderColor=12632256
+DefaultLineColor=16711680
+ShowFieldType=1
+ShowFieldIcon=1
+ShowPhyFieldName=2
+DatabaseEngine=
+GenFKIndexesSQL=0
+</ConfigStr>
+</DataModels_item1>
+
+
+<DataModels_item1_item0>
+  <Count>9</Count>
+</DataModels_item1_item0>
+
+
+<DataModels_item1_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>T_BASE_USER</Name>
+  <Caption>人员信息表</Caption>
+  <Memo>User Info</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <GraphDesc>Left=865.00
+Top=210.00</GraphDesc>
+</DataModels_item1_item0_item1>
+
+
+<DataModels_item1_item0_item1_item0>
+  <Count>17</Count>
+</DataModels_item1_item0_item1_item0>
+
+
+<DataModels_item1_item0_item1_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>人员表Id</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item1>
+
+
+<DataModels_item1_item0_item1_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>BUSurname</Name>
+  <Memo>姓</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>Surname</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item2>
+
+
+<DataModels_item1_item0_item1_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>BUGivenname</Name>
+  <Memo>名</Memo>
+  <CreateDate>2017/9/7 23:31:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>Givenname</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item3>
+
+
+<DataModels_item1_item0_item1_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>BUJobNumber</Name>
+  <Memo>工号</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>JobNumber</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item4>
+
+
+<DataModels_item1_item0_item1_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>BUSex</Name>
+  <Memo>性别(1-男，2-女，0-其他)</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>Sex</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item5>
+
+
+<DataModels_item1_item0_item1_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>BUAvatars</Name>
+  <Memo>头像</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>Avatars</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item6>
+
+
+<DataModels_item1_item0_item1_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>BUPhoneNum</Name>
+  <Memo>电话</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>PhoneNum</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item7>
+
+
+<DataModels_item1_item0_item1_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>BUEmail</Name>
+  <Memo>邮箱</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>Email</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item8>
+
+
+<DataModels_item1_item0_item1_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>BUDepartId</Name>
+  <Memo>所属部门Id</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>DepartId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item9>
+
+
+<DataModels_item1_item0_item1_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>17</ID>
+  <Name>BUTitle</Name>
+  <Memo>岗位头衔</Memo>
+  <CreateDate>2017/9/16 22:07:04</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>UserTitle</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item10>
+
+
+<DataModels_item1_item0_item1_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>BUCreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item11>
+
+
+<DataModels_item1_item0_item1_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>BUCreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/7 17:36:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item12>
+
+
+<DataModels_item1_item0_item1_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>BUCreateTime</Name>
+  <Memo>创建日期</Memo>
+  <CreateDate>2017/9/7 17:36:32</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item13>
+
+
+<DataModels_item1_item0_item1_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>BUOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/7 17:36:40</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item14>
+
+
+<DataModels_item1_item0_item1_item0_item15>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>BUOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/7 17:36:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item15>
+
+
+<DataModels_item1_item0_item1_item0_item16>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>BUOperateTime</Name>
+  <Memo>操作时间</Memo>
+  <CreateDate>2017/9/7 17:36:59</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>16</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item16>
+
+
+<DataModels_item1_item0_item1_item0_item17>
+  <CTVER>43543230</CTVER>
+  <ID>17</ID>
+  <Name>BUIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/7 18:15:23</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>17</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item17>
+
+
+<DataModels_item1_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>T_BASE_ACCOUNT</Name>
+  <Caption>账户信息表</Caption>
+  <Memo>Account Info</Memo>
+  <CreateDate>2017/9/7 15:47:31</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <GraphDesc>Left=572.50
+Top=10.00</GraphDesc>
+</DataModels_item1_item0_item2>
+
+
+<DataModels_item1_item0_item2_item0>
+  <Count>12</Count>
+</DataModels_item1_item0_item2_item0>
+
+
+<DataModels_item1_item0_item2_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>账户表Id</Memo>
+  <CreateDate>2017/9/7 15:47:31</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item1>
+
+
+<DataModels_item1_item0_item2_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>BAAccount</Name>
+  <Memo>登录账号</Memo>
+  <CreateDate>2017/9/7 15:47:31</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>Account</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item2>
+
+
+<DataModels_item1_item0_item2_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>BAPassword</Name>
+  <Memo>登录密码</Memo>
+  <CreateDate>2017/9/7 15:47:31</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>Password</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>123456</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item3>
+
+
+<DataModels_item1_item0_item2_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>BAUserId</Name>
+  <Memo>用户Id [T_BASE_USER.Id]</Memo>
+  <CreateDate>2017/9/7 15:47:31</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>UserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item4>
+
+
+<DataModels_item1_item0_item2_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>BAType</Name>
+  <Memo>1.管理员 2.员工</Memo>
+  <CreateDate>2017/9/7 15:47:31</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>Type</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>2</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item5>
+
+
+<DataModels_item1_item0_item2_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>BAIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/7 15:47:31</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item6>
+
+
+<DataModels_item1_item0_item2_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>BACreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/7 15:47:31</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item7>
+
+
+<DataModels_item1_item0_item2_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>BACreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/7 15:47:31</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item8>
+
+
+<DataModels_item1_item0_item2_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>BACreateTime</Name>
+  <Memo>创建日期</Memo>
+  <CreateDate>2017/9/7 15:47:31</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item9>
+
+
+<DataModels_item1_item0_item2_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>BAOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/7 15:47:31</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item10>
+
+
+<DataModels_item1_item0_item2_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>BAOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/7 15:47:31</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item11>
+
+
+<DataModels_item1_item0_item2_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>23</ID>
+  <Name>BAOperateTime</Name>
+  <Memo>操作时间</Memo>
+  <CreateDate>2017/9/7 17:01:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item12>
+
+
+<DataModels_item1_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>T_BASE_DEPARTMENT</Name>
+  <Caption>部门信息表</Caption>
+  <Memo>Department Info</Memo>
+  <CreateDate>2017/9/7 17:30:53</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <GraphDesc>Left=302.50
+Top=260.00</GraphDesc>
+</DataModels_item1_item0_item3>
+
+
+<DataModels_item1_item0_item3_item0>
+  <Count>12</Count>
+</DataModels_item1_item0_item3_item0>
+
+
+<DataModels_item1_item0_item3_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>部门表Id</Memo>
+  <CreateDate>2017/9/7 17:30:53</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item1>
+
+
+<DataModels_item1_item0_item3_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>BDParentId</Name>
+  <Memo>父部门Id [T_BASE_DEPARTMENT.Id]</Memo>
+  <CreateDate>2017/9/7 17:30:53</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>ParentId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item2>
+
+
+<DataModels_item1_item0_item3_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>BDDeptName</Name>
+  <Memo>部门名称</Memo>
+  <CreateDate>2017/9/7 17:30:53</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>DepartmentName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item3>
+
+
+<DataModels_item1_item0_item3_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>BDDeptDesc</Name>
+  <Memo>部门描述</Memo>
+  <CreateDate>2017/9/7 17:30:53</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>DepartmentDescription</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item4>
+
+
+<DataModels_item1_item0_item3_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>BDIsMin</Name>
+  <Memo>是否最小级部门（0.否 1.是）</Memo>
+  <CreateDate>2017/9/7 17:30:53</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>IsMinDepartment</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item5>
+
+
+<DataModels_item1_item0_item3_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>BDIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/7 17:30:53</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item6>
+
+
+<DataModels_item1_item0_item3_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>BDCreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/7 17:30:53</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item7>
+
+
+<DataModels_item1_item0_item3_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>BDCreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/7 17:30:53</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item8>
+
+
+<DataModels_item1_item0_item3_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>BDCreateTime</Name>
+  <Memo>创建日期</Memo>
+  <CreateDate>2017/9/7 17:30:53</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item9>
+
+
+<DataModels_item1_item0_item3_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>BDOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/7 17:30:53</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item10>
+
+
+<DataModels_item1_item0_item3_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>BDOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/7 17:30:53</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item11>
+
+
+<DataModels_item1_item0_item3_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>BDOperateTime</Name>
+  <Memo>操作时间</Memo>
+  <CreateDate>2017/9/8 0:01:52</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item12>
+
+
+<DataModels_item1_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>T_BASE_ROLE</Name>
+  <Caption>权限明细表</Caption>
+  <Memo>Role Details</Memo>
+  <CreateDate>2017/9/7 23:28:55</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <GraphDesc>Left=280.00
+Top=10.00</GraphDesc>
+</DataModels_item1_item0_item4>
+
+
+<DataModels_item1_item0_item4_item0>
+  <Count>12</Count>
+</DataModels_item1_item0_item4_item0>
+
+
+<DataModels_item1_item0_item4_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>权限Id</Memo>
+  <CreateDate>2017/9/7 23:28:55</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item1>
+
+
+<DataModels_item1_item0_item4_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>BRCode</Name>
+  <Memo>权限编码</Memo>
+  <CreateDate>2017/9/7 23:28:55</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>RoleCode</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item2>
+
+
+<DataModels_item1_item0_item4_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>BRName</Name>
+  <Memo>权限名称</Memo>
+  <CreateDate>2017/9/7 23:28:55</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>RoleName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item3>
+
+
+<DataModels_item1_item0_item4_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>BRType</Name>
+  <Memo>权限种类（1.页面 2.功能）</Memo>
+  <CreateDate>2017/9/7 23:28:55</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>RoleType</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item4>
+
+
+<DataModels_item1_item0_item4_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>BRGroup</Name>
+  <Memo>权限分组</Memo>
+  <CreateDate>2017/9/13 21:47:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>RoleGroup</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item5>
+
+
+<DataModels_item1_item0_item4_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>23</ID>
+  <Name>BRIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/8 0:07:16</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item6>
+
+
+<DataModels_item1_item0_item4_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>24</ID>
+  <Name>BRCreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/8 0:07:16</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item7>
+
+
+<DataModels_item1_item0_item4_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>25</ID>
+  <Name>BRCreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/8 0:07:16</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item8>
+
+
+<DataModels_item1_item0_item4_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>26</ID>
+  <Name>BRCreateTime</Name>
+  <Memo>创建日期</Memo>
+  <CreateDate>2017/9/8 0:07:17</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item9>
+
+
+<DataModels_item1_item0_item4_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>27</ID>
+  <Name>BROperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/8 0:07:18</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item10>
+
+
+<DataModels_item1_item0_item4_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>28</ID>
+  <Name>BROperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/8 0:07:18</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item11>
+
+
+<DataModels_item1_item0_item4_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>29</ID>
+  <Name>BROperateTime</Name>
+  <Memo>操作日期</Memo>
+  <CreateDate>2017/9/8 0:07:18</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item12>
+
+
+<DataModels_item1_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>T_BASE_USERROLE_RELATION</Name>
+  <Caption>人员权限分配表</Caption>
+  <Memo>User Role</Memo>
+  <CreateDate>2017/9/8 0:09:37</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <GraphDesc>Left=865.00
+Top=10.00</GraphDesc>
+</DataModels_item1_item0_item5>
+
+
+<DataModels_item1_item0_item5_item0>
+  <Count>10</Count>
+</DataModels_item1_item0_item5_item0>
+
+
+<DataModels_item1_item0_item5_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>权限分配Id</Memo>
+  <CreateDate>2017/9/8 0:09:37</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item5_item0_item1>
+
+
+<DataModels_item1_item0_item5_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>BURUserId</Name>
+  <Memo>用户Id [T_BASE_USER.Id]</Memo>
+  <CreateDate>2017/9/8 0:09:37</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>UserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item5_item0_item2>
+
+
+<DataModels_item1_item0_item5_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>BURRoleId</Name>
+  <Memo>权限Id [T_BASE_ROLE.Id]</Memo>
+  <CreateDate>2017/9/8 0:09:37</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>RoleId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item5_item0_item3>
+
+
+<DataModels_item1_item0_item5_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>BURIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/8 0:09:37</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item5_item0_item4>
+
+
+<DataModels_item1_item0_item5_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>BURCreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/8 0:09:37</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item5_item0_item5>
+
+
+<DataModels_item1_item0_item5_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>BURCreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/8 0:09:37</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item5_item0_item6>
+
+
+<DataModels_item1_item0_item5_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>BURCreateTime</Name>
+  <Memo>创建日期</Memo>
+  <CreateDate>2017/9/8 0:09:37</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item5_item0_item7>
+
+
+<DataModels_item1_item0_item5_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>BUROperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/8 0:09:37</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item5_item0_item8>
+
+
+<DataModels_item1_item0_item5_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>BUROperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/8 0:09:37</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item5_item0_item9>
+
+
+<DataModels_item1_item0_item5_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>BUROperateTime</Name>
+  <Memo>操作日期</Memo>
+  <CreateDate>2017/9/8 0:09:37</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item5_item0_item10>
+
+
+<DataModels_item1_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>T_BASE_CODE</Name>
+  <Caption>基础数据设置表</Caption>
+  <Memo>Base Code</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <GraphDesc>Left=10.00
+Top=210.00</GraphDesc>
+</DataModels_item1_item0_item6>
+
+
+<DataModels_item1_item0_item6_item0>
+  <Count>12</Count>
+</DataModels_item1_item0_item6_item0>
+
+
+<DataModels_item1_item0_item6_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>基础数据Id</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item6_item0_item1>
+
+
+<DataModels_item1_item0_item6_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>BCCode</Name>
+  <Memo>值</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>Code</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item6_item0_item2>
+
+
+<DataModels_item1_item0_item6_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>BCCodeDesc</Name>
+  <Memo>键</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>CodeDescription</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item6_item0_item3>
+
+
+<DataModels_item1_item0_item6_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>BCCategory</Name>
+  <Memo>分类</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>Category</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item6_item0_item4>
+
+
+<DataModels_item1_item0_item6_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>BCCodeOrder</Name>
+  <Memo>排序</Memo>
+  <CreateDate>2017/9/16 0:24:44</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>CodeOrder</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>int</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item6_item0_item5>
+
+
+<DataModels_item1_item0_item6_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>BCIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item6_item0_item6>
+
+
+<DataModels_item1_item0_item6_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>BCCreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item6_item0_item7>
+
+
+<DataModels_item1_item0_item6_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>BCCreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item6_item0_item8>
+
+
+<DataModels_item1_item0_item6_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>BCCreateTime</Name>
+  <Memo>创建日期</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item6_item0_item9>
+
+
+<DataModels_item1_item0_item6_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>BCOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item6_item0_item10>
+
+
+<DataModels_item1_item0_item6_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>BCOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item6_item0_item11>
+
+
+<DataModels_item1_item0_item6_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>BCOperateTime</Name>
+  <Memo>操作日期</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item6_item0_item12>
+
+
+<DataModels_item1_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>T_BASE_LOG</Name>
+  <Caption>操作日志记录表</Caption>
+  <Memo>User Action Log</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <GraphDesc>Left=10.00
+Top=10.00</GraphDesc>
+</DataModels_item1_item0_item7>
+
+
+<DataModels_item1_item0_item7_item0>
+  <Count>10</Count>
+</DataModels_item1_item0_item7_item0>
+
+
+<DataModels_item1_item0_item7_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>日志表Id</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item7_item0_item1>
+
+
+<DataModels_item1_item0_item7_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>BLCode</Name>
+  <Memo>日志关键字</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>LogCode</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item7_item0_item2>
+
+
+<DataModels_item1_item0_item7_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>BLLogDesc</Name>
+  <Memo>日志内容</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>LogDescription</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item7_item0_item3>
+
+
+<DataModels_item1_item0_item7_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>BLLogType</Name>
+  <Memo>日志种类</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>logType</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item7_item0_item4>
+
+
+<DataModels_item1_item0_item7_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>BLFilterValue</Name>
+  <Memo>过滤文本</Memo>
+  <CreateDate>2017/9/16 0:24:44</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>FilterValue</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item7_item0_item5>
+
+
+<DataModels_item1_item0_item7_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>BLFilterId</Name>
+  <Memo>过滤Id</Memo>
+  <CreateDate>2017/9/16 22:56:33</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>FilterId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item7_item0_item6>
+
+
+<DataModels_item1_item0_item7_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>BLIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item7_item0_item7>
+
+
+<DataModels_item1_item0_item7_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>BLCreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item7_item0_item8>
+
+
+<DataModels_item1_item0_item7_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>BLCreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item7_item0_item9>
+
+
+<DataModels_item1_item0_item7_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>BLCreateTime</Name>
+  <Memo>创建日期</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item7_item0_item10>
+
+
+<DataModels_item1_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>T_BASE_MACHINETOOL</Name>
+  <Caption>基础设备工具配置表</Caption>
+  <Memo>Machine And Tool</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <GraphDesc>Left=10.00
+Top=510.00</GraphDesc>
+</DataModels_item1_item0_item8>
+
+
+<DataModels_item1_item0_item8_item0>
+  <Count>11</Count>
+</DataModels_item1_item0_item8_item0>
+
+
+<DataModels_item1_item0_item8_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>基础数据Id</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item1>
+
+
+<DataModels_item1_item0_item8_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>BMCode</Name>
+  <Memo>设备名</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>Code</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item2>
+
+
+<DataModels_item1_item0_item8_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>BMCodeDesc</Name>
+  <Memo>设备描述</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>CodeDescription</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item3>
+
+
+<DataModels_item1_item0_item8_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>BMType</Name>
+  <Memo>分类 (1.Machine 2.Tool)</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>Type</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item4>
+
+
+<DataModels_item1_item0_item8_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>BMIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item5>
+
+
+<DataModels_item1_item0_item8_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>BMCreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item6>
+
+
+<DataModels_item1_item0_item8_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>BMCreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item7>
+
+
+<DataModels_item1_item0_item8_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>BMCreateTime</Name>
+  <Memo>创建日期</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item8>
+
+
+<DataModels_item1_item0_item8_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>BMOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item9>
+
+
+<DataModels_item1_item0_item8_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>BMOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item10>
+
+
+<DataModels_item1_item0_item8_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>BMOperateTime</Name>
+  <Memo>操作日期</Memo>
+  <CreateDate>2017/9/14 0:16:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item11>
+
+
+<DataModels_item1_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>T_BASE_FEEDBACK</Name>
+  <Caption>系统反馈信息表</Caption>
+  <Memo>Complaints and suggestions</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <GraphDesc>Left=325.00
+Top=510.00</GraphDesc>
+</DataModels_item1_item0_item9>
+
+
+<DataModels_item1_item0_item9_item0>
+  <Count>16</Count>
+</DataModels_item1_item0_item9_item0>
+
+
+<DataModels_item1_item0_item9_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>人员表Id</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item1>
+
+
+<DataModels_item1_item0_item9_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>BFType</Name>
+  <Memo>类型</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>Type</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item2>
+
+
+<DataModels_item1_item0_item9_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>BFPhase</Name>
+  <Memo>阶段</Memo>
+  <CreateDate>2017/9/7 23:31:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>Phase</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item3>
+
+
+<DataModels_item1_item0_item9_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>BFDesc</Name>
+  <Memo>描述</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>Description</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>2000</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item4>
+
+
+<DataModels_item1_item0_item9_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>BFRespUserId</Name>
+  <Memo>负责人Id</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>ResponsibleUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item5>
+
+
+<DataModels_item1_item0_item9_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>BFRespName</Name>
+  <Memo>负责人姓名</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>Responsible</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item6>
+
+
+<DataModels_item1_item0_item9_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>BFStatus</Name>
+  <Memo>状态</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>Status</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item7>
+
+
+<DataModels_item1_item0_item9_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>BFPicture</Name>
+  <Memo>图片</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>Picture</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item8>
+
+
+<DataModels_item1_item0_item9_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>BFFeedBackComment</Name>
+  <Memo>所属部门Id</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>FeedBackComment</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>500</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item9>
+
+
+<DataModels_item1_item0_item9_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>BFCreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/6 23:36:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item10>
+
+
+<DataModels_item1_item0_item9_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>BFCreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/7 17:36:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item11>
+
+
+<DataModels_item1_item0_item9_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>BFCreateTime</Name>
+  <Memo>创建日期</Memo>
+  <CreateDate>2017/9/7 17:36:32</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item12>
+
+
+<DataModels_item1_item0_item9_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>BFOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/7 17:36:40</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item13>
+
+
+<DataModels_item1_item0_item9_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>BFOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/7 17:36:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item14>
+
+
+<DataModels_item1_item0_item9_item0_item15>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>BFOperateTime</Name>
+  <Memo>操作时间</Memo>
+  <CreateDate>2017/9/7 17:36:59</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item15>
+
+
+<DataModels_item1_item0_item9_item0_item16>
+  <CTVER>43543230</CTVER>
+  <ID>17</ID>
+  <Name>BFIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/7 18:15:23</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>16</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item16>
+
+
+<DataModels_item2>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>RoechlingEquipment</Name>
+  <CreateDate>2017/9/8 0:12:41</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+</DataModels_item2>
+
+
+<DataModels_item2_item0>
+  <Count>11</Count>
+</DataModels_item2_item0>
+
+
+<DataModels_item2_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>T_MATERIAL_WORKORDER_INFO</Name>
+  <Caption>物料工单信息表</Caption>
+  <Memo>Maintenance Material Infomation(物料工单信息表)</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <GraphDesc>Left=395.00
+Top=1010.00</GraphDesc>
+</DataModels_item2_item0_item1>
+
+
+<DataModels_item2_item0_item1_item0>
+  <Count>17</Count>
+</DataModels_item2_item0_item1_item0>
+
+
+<DataModels_item2_item0_item1_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>物料Id</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item1_item0_item1>
+
+
+<DataModels_item2_item0_item1_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>MICustomerPart</Name>
+  <Memo>零部件编码</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>CustomerPart</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item1_item0_item2>
+
+
+<DataModels_item2_item0_item1_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>MIProductName</Name>
+  <Memo>零件名称</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>ProductName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item1_item0_item3>
+
+
+<DataModels_item2_item0_item1_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>MICustomer</Name>
+  <Memo>供应商</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>Customer</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item1_item0_item4>
+
+
+<DataModels_item2_item0_item1_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>MIPicture</Name>
+  <Memo>图片地址</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>Picture</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item1_item0_item5>
+
+
+<DataModels_item2_item0_item1_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>MIIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item1_item0_item6>
+
+
+<DataModels_item2_item0_item1_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>MICreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item1_item0_item7>
+
+
+<DataModels_item2_item0_item1_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>MICreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item1_item0_item8>
+
+
+<DataModels_item2_item0_item1_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>MICreateTime</Name>
+  <Memo>创建日期</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item1_item0_item9>
+
+
+<DataModels_item2_item0_item1_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>MIOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item1_item0_item10>
+
+
+<DataModels_item2_item0_item1_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>MIOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item1_item0_item11>
+
+
+<DataModels_item2_item0_item1_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>MIOperateTime</Name>
+  <Memo>操作日期</Memo>
+  <CreateDate>2017/9/13 23:32:37</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item1_item0_item12>
+
+
+<DataModels_item2_item0_item1_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>MIWorkOrder</Name>
+  <Memo>工单号</Memo>
+  <CreateDate>2017/9/21 13:53:43</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DisplayName>WorkOrder</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item1_item0_item13>
+
+
+<DataModels_item2_item0_item1_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>MIMaterial</Name>
+  <Memo>物料名称</Memo>
+  <CreateDate>2017/9/21 13:53:54</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DisplayName>Material</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item1_item0_item14>
+
+
+<DataModels_item2_item0_item1_item0_item15>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>MIMaterialText</Name>
+  <Memo>物料描述</Memo>
+  <CreateDate>2017/9/21 13:54:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <DisplayName>MaterialText</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item1_item0_item15>
+
+
+<DataModels_item2_item0_item1_item0_item16>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>MITool</Name>
+  <Memo>工具</Memo>
+  <CreateDate>2017/9/21 13:54:09</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>16</OrderNo>
+  <DisplayName>Tool</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item1_item0_item16>
+
+
+<DataModels_item2_item0_item1_item0_item17>
+  <CTVER>43543230</CTVER>
+  <ID>17</ID>
+  <Name>MITotalQty</Name>
+  <Memo>所需零件数</Memo>
+  <CreateDate>2017/9/21 13:57:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>17</OrderNo>
+  <DisplayName>TotalQty</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>int</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item1_item0_item17>
+
+
+<DataModels_item2_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>T_PROBLEM_INFO</Name>
+  <Caption>问题基础表</Caption>
+  <Memo>Problem Info</Memo>
+  <CreateDate>2017/9/14 0:39:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <GraphDesc>Left=10.00
+Top=660.00</GraphDesc>
+</DataModels_item2_item0_item2>
+
+
+<DataModels_item2_item0_item2_item0>
+  <Count>28</Count>
+</DataModels_item2_item0_item2_item0>
+
+
+<DataModels_item2_item0_item2_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>问题表Id</Memo>
+  <CreateDate>2017/9/14 0:39:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item1>
+
+
+<DataModels_item2_item0_item2_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>PIProblemNo</Name>
+  <Memo>问题编号</Memo>
+  <CreateDate>2017/9/14 0:39:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>ProblemNo</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item2>
+
+
+<DataModels_item2_item0_item2_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>PIProcess</Name>
+  <Memo>流程</Memo>
+  <CreateDate>2017/9/14 0:39:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>Process</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item3>
+
+
+<DataModels_item2_item0_item2_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>PIMachine</Name>
+  <Memo>机器</Memo>
+  <CreateDate>2017/9/14 0:39:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>Machine</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item4>
+
+
+<DataModels_item2_item0_item2_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>PIMaterialId</Name>
+  <Memo>物料Id [T_MATERIAL_INFO.Id]</Memo>
+  <CreateDate>2017/9/14 0:39:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>MaterialId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item5>
+
+
+<DataModels_item2_item0_item2_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>PIWorkOrderId</Name>
+  <Memo>?</Memo>
+  <CreateDate>2017/9/16 0:03:08</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>WorkOrderId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item6>
+
+
+<DataModels_item2_item0_item2_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>PIProblemDate</Name>
+  <Memo>发生日期</Memo>
+  <CreateDate>2017/9/14 0:39:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>ProblemDate</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>&#39;1900-01-01&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item7>
+
+
+<DataModels_item2_item0_item2_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>PIProblemSource</Name>
+  <Memo>问题源头</Memo>
+  <CreateDate>2017/9/14 0:39:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>ProblemSource</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item8>
+
+
+<DataModels_item2_item0_item2_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>PIDefectCode</Name>
+  <Memo>缺陷代码</Memo>
+  <CreateDate>2017/9/14 0:39:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>PIDefectCode</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item9>
+
+
+<DataModels_item2_item0_item2_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>PIDefectQty</Name>
+  <Memo>不良品数量</Memo>
+  <CreateDate>2017/9/14 0:39:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>DefectQty</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>int</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item10>
+
+
+<DataModels_item2_item0_item2_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>PIShiftType</Name>
+  <Memo>?</Memo>
+  <CreateDate>2017/9/14 0:39:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>ShiftType</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item11>
+
+
+<DataModels_item2_item0_item2_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>PIIsRepeated</Name>
+  <Memo>是否重复 （0.否 1.是）</Memo>
+  <CreateDate>2017/9/14 0:39:26</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>Repeated</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item12>
+
+
+<DataModels_item2_item0_item2_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>PIProblemDesc</Name>
+  <Memo>问题描述</Memo>
+  <CreateDate>2017/9/16 0:07:16</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DisplayName>Problem Description</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item13>
+
+
+<DataModels_item2_item0_item2_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>PIPicture1</Name>
+  <Memo>图片1</Memo>
+  <CreateDate>2017/9/16 0:09:27</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DisplayName>Picture1</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item14>
+
+
+<DataModels_item2_item0_item2_item0_item15>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>PIPicture2</Name>
+  <Memo>图片2</Memo>
+  <CreateDate>2017/9/16 0:09:44</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <DisplayName>Picture2</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item15>
+
+
+<DataModels_item2_item0_item2_item0_item16>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>PIPicture3</Name>
+  <Memo>图片3</Memo>
+  <CreateDate>2017/9/16 0:09:49</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>16</OrderNo>
+  <DisplayName>Picture3</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item16>
+
+
+<DataModels_item2_item0_item2_item0_item17>
+  <CTVER>43543230</CTVER>
+  <ID>17</ID>
+  <Name>PIStatus</Name>
+  <Memo>问题跟踪状态</Memo>
+  <CreateDate>2017/9/16 0:11:10</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>17</OrderNo>
+  <DisplayName>ProblemStatus</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item17>
+
+
+<DataModels_item2_item0_item2_item0_item18>
+  <CTVER>43543230</CTVER>
+  <ID>18</ID>
+  <Name>PISeverity</Name>
+  <Memo>严重程度</Memo>
+  <CreateDate>2017/9/16 0:12:18</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>18</OrderNo>
+  <DisplayName>Severity</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item18>
+
+
+<DataModels_item2_item0_item2_item0_item19>
+  <CTVER>43543230</CTVER>
+  <ID>27</ID>
+  <Name>PIFactorAnalysisAssign</Name>
+  <Memo>?</Memo>
+  <CreateDate>2017/9/17 11:28:43</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>19</OrderNo>
+  <DisplayName>FactorAnalysisAssign</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item19>
+
+
+<DataModels_item2_item0_item2_item0_item20>
+  <CTVER>43543230</CTVER>
+  <ID>28</ID>
+  <Name>PIRootCause</Name>
+  <Memo>根本原因</Memo>
+  <CreateDate>2017/9/17 11:29:29</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>20</OrderNo>
+  <DisplayName>RootCause</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item20>
+
+
+<DataModels_item2_item0_item2_item0_item21>
+  <CTVER>43543230</CTVER>
+  <ID>26</ID>
+  <Name>PIActionPlan</Name>
+  <Memo>?</Memo>
+  <CreateDate>2017/9/17 11:21:09</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>21</OrderNo>
+  <DisplayName>ActionPlan</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>500</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item21>
+
+
+<DataModels_item2_item0_item2_item0_item22>
+  <CTVER>43543230</CTVER>
+  <ID>19</ID>
+  <Name>PIIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/16 0:19:51</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>22</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item22>
+
+
+<DataModels_item2_item0_item2_item0_item23>
+  <CTVER>43543230</CTVER>
+  <ID>20</ID>
+  <Name>PICreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/16 0:20:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>23</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item23>
+
+
+<DataModels_item2_item0_item2_item0_item24>
+  <CTVER>43543230</CTVER>
+  <ID>21</ID>
+  <Name>PICreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/16 0:20:20</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>24</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item24>
+
+
+<DataModels_item2_item0_item2_item0_item25>
+  <CTVER>43543230</CTVER>
+  <ID>22</ID>
+  <Name>PICreateTime</Name>
+  <Memo>创建日期</Memo>
+  <CreateDate>2017/9/16 0:20:33</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>25</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item25>
+
+
+<DataModels_item2_item0_item2_item0_item26>
+  <CTVER>43543230</CTVER>
+  <ID>23</ID>
+  <Name>PIOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/16 0:20:51</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>26</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item26>
+
+
+<DataModels_item2_item0_item2_item0_item27>
+  <CTVER>43543230</CTVER>
+  <ID>24</ID>
+  <Name>PIOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/16 0:21:21</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>27</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item27>
+
+
+<DataModels_item2_item0_item2_item0_item28>
+  <CTVER>43543230</CTVER>
+  <ID>25</ID>
+  <Name>PIOperateTime</Name>
+  <Memo>操作日期</Memo>
+  <CreateDate>2017/9/16 0:21:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>28</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item2_item0_item28>
+
+
+<DataModels_item2_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>T_PROBLEM_SOLVINGTEAM</Name>
+  <Caption>问题质量报警表</Caption>
+  <Memo>Problem Solving Team   </Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <GraphDesc>Left=10.00
+Top=10.00</GraphDesc>
+</DataModels_item2_item0_item3>
+
+
+<DataModels_item2_item0_item3_item0>
+  <Count>16</Count>
+</DataModels_item2_item0_item3_item0>
+
+
+<DataModels_item2_item0_item3_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>问题处理人员表Id</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item3_item0_item1>
+
+
+<DataModels_item2_item0_item3_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>PSProblemId</Name>
+  <Memo>问题Id [T_PROBLEM_INFO.Id]</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>ProblemId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item3_item0_item2>
+
+
+<DataModels_item2_item0_item3_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>PSUserId</Name>
+  <Memo>人员Id [T_BASE_USER.Id]</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>UserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item3_item0_item3>
+
+
+<DataModels_item2_item0_item3_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>PSUserName</Name>
+  <Memo>人员姓名</Memo>
+  <CreateDate>2017/9/16 22:24:10</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>UserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item3_item0_item4>
+
+
+<DataModels_item2_item0_item3_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>PSDeskEXT</Name>
+  <Memo>联系电话</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>DeskEXT</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item3_item0_item5>
+
+
+<DataModels_item2_item0_item3_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>PSDeptId</Name>
+  <Memo>部门Id [T_BASE_DEPARTMENT.Id]</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>DepartmentId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item3_item0_item6>
+
+
+<DataModels_item2_item0_item3_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>PSDeptName</Name>
+  <Memo>部门名称</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>DepartmentName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item3_item0_item7>
+
+
+<DataModels_item2_item0_item3_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>PSUserTitle</Name>
+  <Memo>人员头衔</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>UserTitle</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item3_item0_item8>
+
+
+<DataModels_item2_item0_item3_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>PSIsLeader</Name>
+  <Memo>是否领导（0.否 1.是）</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>IsLeader</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item3_item0_item9>
+
+
+<DataModels_item2_item0_item3_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>PSIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item3_item0_item10>
+
+
+<DataModels_item2_item0_item3_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>PSCreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item3_item0_item11>
+
+
+<DataModels_item2_item0_item3_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>PSCreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item3_item0_item12>
+
+
+<DataModels_item2_item0_item3_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>PSCreateTime</Name>
+  <Memo>创建时间</Memo>
+  <CreateDate>2017/9/16 22:26:32</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item3_item0_item13>
+
+
+<DataModels_item2_item0_item3_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>PSOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/16 22:26:33</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item3_item0_item14>
+
+
+<DataModels_item2_item0_item3_item0_item15>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>PSOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/16 22:26:34</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item3_item0_item15>
+
+
+<DataModels_item2_item0_item3_item0_item16>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>PSOperateTime</Name>
+  <Memo>操作时间</Memo>
+  <CreateDate>2017/9/16 22:26:34</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>16</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item3_item0_item16>
+
+
+<DataModels_item2_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>T_PROBLEM_QUALITYALERT</Name>
+  <Caption>问题质量报警表</Caption>
+  <Memo>Problem Quality Alert</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <GraphDesc>Left=977.50
+Top=10.00</GraphDesc>
+</DataModels_item2_item0_item4>
+
+
+<DataModels_item2_item0_item4_item0>
+  <Count>14</Count>
+</DataModels_item2_item0_item4_item0>
+
+
+<DataModels_item2_item0_item4_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>问题处理人员表Id</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item4_item0_item1>
+
+
+<DataModels_item2_item0_item4_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>PQProblemId</Name>
+  <Memo>问题Id [T_PROBLEM_INFO.Id]</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>ProblemId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item4_item0_item2>
+
+
+<DataModels_item2_item0_item4_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>PQWhat</Name>
+  <Memo>报警内容</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>What</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item4_item0_item3>
+
+
+<DataModels_item2_item0_item4_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>PQWho</Name>
+  <Memo>报警部分</Memo>
+  <CreateDate>2017/9/16 22:24:10</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>Who</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item4_item0_item4>
+
+
+<DataModels_item2_item0_item4_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>PQPlanDate</Name>
+  <Memo>计划日期?</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>PlanDate</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>&#39;1900-01-01&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item4_item0_item5>
+
+
+<DataModels_item2_item0_item4_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>PQActualDate</Name>
+  <Memo>实际日期?</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>ActualDate</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>&#39;1900-01-01&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item4_item0_item6>
+
+
+<DataModels_item2_item0_item4_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>PQAttachment</Name>
+  <Memo>附件</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>Attachment</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item4_item0_item7>
+
+
+<DataModels_item2_item0_item4_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>PQIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item4_item0_item8>
+
+
+<DataModels_item2_item0_item4_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>PQCreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item4_item0_item9>
+
+
+<DataModels_item2_item0_item4_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>PQCreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/16 0:34:47</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item4_item0_item10>
+
+
+<DataModels_item2_item0_item4_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>PQCreateTime</Name>
+  <Memo>创建时间</Memo>
+  <CreateDate>2017/9/16 22:26:32</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item4_item0_item11>
+
+
+<DataModels_item2_item0_item4_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>PQOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/16 22:26:33</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item4_item0_item12>
+
+
+<DataModels_item2_item0_item4_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>PQOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/16 22:26:34</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item4_item0_item13>
+
+
+<DataModels_item2_item0_item4_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>PQOperateTime</Name>
+  <Memo>操作时间</Memo>
+  <CreateDate>2017/9/16 22:26:34</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item4_item0_item14>
+
+
+<DataModels_item2_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>T_PROBLEM_ACTION_CONTAINMENT</Name>
+  <Caption>问题响应措施表（24小时）</Caption>
+  <Memo>Containment Action 24H -Delay</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <GraphDesc>Left=640.00
+Top=660.00</GraphDesc>
+</DataModels_item2_item0_item5>
+
+
+<DataModels_item2_item0_item5_item0>
+  <Count>18</Count>
+</DataModels_item2_item0_item5_item0>
+
+
+<DataModels_item2_item0_item5_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>问题响应措施Id</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item5_item0_item1>
+
+
+<DataModels_item2_item0_item5_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>PACWhat</Name>
+  <Memo>问题</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>What</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item5_item0_item2>
+
+
+<DataModels_item2_item0_item5_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>PACTrobleSpots</Name>
+  <Memo>故障点</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>TrobleSpots</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item5_item0_item3>
+
+
+<DataModels_item2_item0_item5_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>PACWho</Name>
+  <Memo>处理人</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>Who</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item5_item0_item4>
+
+
+<DataModels_item2_item0_item5_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>PACPlanDate</Name>
+  <Memo>计划时间</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>PlanDate</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>&#39;1900-01-01&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item5_item0_item5>
+
+
+<DataModels_item2_item0_item5_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>PACVarificationDate</Name>
+  <Memo>验证时间</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>VarificationDate</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>&#39;1900-01-01&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item5_item0_item6>
+
+
+<DataModels_item2_item0_item5_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>PACWhere</Name>
+  <Memo>问题发生点</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>Where</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item5_item0_item7>
+
+
+<DataModels_item2_item0_item5_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>PACAttachment</Name>
+  <Memo>附件</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>Attachment</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item5_item0_item8>
+
+
+<DataModels_item2_item0_item5_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>PACEffeective</Name>
+  <Memo>处理进度</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>Effeective</DisplayName>
+  <DataType>3</DataType>
+  <DataTypeName>decimal</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>3</DataLength>
+  <DataScale>2</DataScale>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item5_item0_item9>
+
+
+<DataModels_item2_item0_item5_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>PACComment</Name>
+  <Memo>备注</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>Comment</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item5_item0_item10>
+
+
+<DataModels_item2_item0_item5_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>PACIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item5_item0_item11>
+
+
+<DataModels_item2_item0_item5_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>PACCreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/17 10:42:13</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item5_item0_item12>
+
+
+<DataModels_item2_item0_item5_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>PACCreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/17 10:42:13</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item5_item0_item13>
+
+
+<DataModels_item2_item0_item5_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>PACCreateTime</Name>
+  <Memo>创建时间</Memo>
+  <CreateDate>2017/9/17 10:42:14</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item5_item0_item14>
+
+
+<DataModels_item2_item0_item5_item0_item15>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>PACOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item5_item0_item15>
+
+
+<DataModels_item2_item0_item5_item0_item16>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>PACOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>16</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item5_item0_item16>
+
+
+<DataModels_item2_item0_item5_item0_item17>
+  <CTVER>43543230</CTVER>
+  <ID>17</ID>
+  <Name>PACOperateTime</Name>
+  <Memo>操作时间</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>17</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item5_item0_item17>
+
+
+<DataModels_item2_item0_item5_item0_item18>
+  <CTVER>43543230</CTVER>
+  <ID>18</ID>
+  <Name>PACProblemId</Name>
+  <Memo>问题Id [T_PROBLEM_INFO.Id]</Memo>
+  <CreateDate>2017/9/17 11:55:34</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>18</OrderNo>
+  <DisplayName>ProblemId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item5_item0_item18>
+
+
+<DataModels_item2_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>T_PROBLEM_ACTION_WHYANALYSIS</Name>
+  <Caption>问题分析响应（7天）</Caption>
+  <Memo>5 Why Analysis 7D</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <GraphDesc>Left=302.50
+Top=10.00</GraphDesc>
+</DataModels_item2_item0_item6>
+
+
+<DataModels_item2_item0_item6_item0>
+  <Count>16</Count>
+</DataModels_item2_item0_item6_item0>
+
+
+<DataModels_item2_item0_item6_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>问题响应措施Id</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item6_item0_item1>
+
+
+<DataModels_item2_item0_item6_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>PAWWhyForm</Name>
+  <Memo>原因模板</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>WhyForm</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item6_item0_item2>
+
+
+<DataModels_item2_item0_item6_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>PAWWhyQuestionChain</Name>
+  <Memo>故障点</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>WhyQuestionChain</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item6_item0_item3>
+
+
+<DataModels_item2_item0_item6_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>PAWWhy1</Name>
+  <Memo>处理人</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>1stWhy</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item6_item0_item4>
+
+
+<DataModels_item2_item0_item6_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>PAWWhy2</Name>
+  <Memo>计划时间</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>2ndWhy</DisplayName>
+  <DataType>1</DataType>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item6_item0_item5>
+
+
+<DataModels_item2_item0_item6_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>PAWWhy3</Name>
+  <Memo>验证时间</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>3rdWhy</DisplayName>
+  <DataType>1</DataType>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item6_item0_item6>
+
+
+<DataModels_item2_item0_item6_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>PAWWhy4</Name>
+  <Memo>问题发生点</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>4thWhy</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item6_item0_item7>
+
+
+<DataModels_item2_item0_item6_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>PAWWhy5</Name>
+  <Memo>附件</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>5thWhy</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item6_item0_item8>
+
+
+<DataModels_item2_item0_item6_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>PAWIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item6_item0_item9>
+
+
+<DataModels_item2_item0_item6_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>PAWCreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/17 10:42:13</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item6_item0_item10>
+
+
+<DataModels_item2_item0_item6_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>PAWCreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/17 10:42:13</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item6_item0_item11>
+
+
+<DataModels_item2_item0_item6_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>PAWCreateTime</Name>
+  <Memo>创建时间</Memo>
+  <CreateDate>2017/9/17 10:42:14</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item6_item0_item12>
+
+
+<DataModels_item2_item0_item6_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>PAWOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item6_item0_item13>
+
+
+<DataModels_item2_item0_item6_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>PAWOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item6_item0_item14>
+
+
+<DataModels_item2_item0_item6_item0_item15>
+  <CTVER>43543230</CTVER>
+  <ID>17</ID>
+  <Name>PAWOperateTime</Name>
+  <Memo>操作时间</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item6_item0_item15>
+
+
+<DataModels_item2_item0_item6_item0_item16>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>PAWProblemId</Name>
+  <Memo>问题Id [T_PROBLEM_INFO.Id]</Memo>
+  <CreateDate>2017/9/17 11:56:09</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>16</OrderNo>
+  <DisplayName>ProblemId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item6_item0_item16>
+
+
+<DataModels_item2_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>T_PROBLEM_ACTION_CORRECTIVE</Name>
+  <Caption>问题纠正表（7天）</Caption>
+  <Memo>Corrective Action 7D</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <GraphDesc>Left=640.00
+Top=10.00</GraphDesc>
+</DataModels_item2_item0_item7>
+
+
+<DataModels_item2_item0_item7_item0>
+  <Count>17</Count>
+</DataModels_item2_item0_item7_item0>
+
+
+<DataModels_item2_item0_item7_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>问题纠正Id</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item7_item0_item1>
+
+
+<DataModels_item2_item0_item7_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>PACWhat</Name>
+  <Memo>问题</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>What</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item7_item0_item2>
+
+
+<DataModels_item2_item0_item7_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>PACWho</Name>
+  <Memo>处理人</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>Who</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item7_item0_item3>
+
+
+<DataModels_item2_item0_item7_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>PACPlanDate</Name>
+  <Memo>计划时间</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>PlanDate</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>&#39;1900-01-01&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item7_item0_item4>
+
+
+<DataModels_item2_item0_item7_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>PACActualDate</Name>
+  <Memo>处理时间</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>ActualDate</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>&#39;1900-01-01&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item7_item0_item5>
+
+
+<DataModels_item2_item0_item7_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>PACWhere</Name>
+  <Memo>问题发生点</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>Where</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item7_item0_item6>
+
+
+<DataModels_item2_item0_item7_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>PACAttachment</Name>
+  <Memo>附件</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>Attachment</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item7_item0_item7>
+
+
+<DataModels_item2_item0_item7_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>PACStatus</Name>
+  <Memo>状态</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>Status</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item7_item0_item8>
+
+
+<DataModels_item2_item0_item7_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>PACComment</Name>
+  <Memo>备注</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>Comment</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item7_item0_item9>
+
+
+<DataModels_item2_item0_item7_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>PACIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item7_item0_item10>
+
+
+<DataModels_item2_item0_item7_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>PACCreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/17 10:42:13</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item7_item0_item11>
+
+
+<DataModels_item2_item0_item7_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>PACCreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/17 10:42:13</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item7_item0_item12>
+
+
+<DataModels_item2_item0_item7_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>PACCreateTime</Name>
+  <Memo>创建时间</Memo>
+  <CreateDate>2017/9/17 10:42:14</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item7_item0_item13>
+
+
+<DataModels_item2_item0_item7_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>PACOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item7_item0_item14>
+
+
+<DataModels_item2_item0_item7_item0_item15>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>PACOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item7_item0_item15>
+
+
+<DataModels_item2_item0_item7_item0_item16>
+  <CTVER>43543230</CTVER>
+  <ID>17</ID>
+  <Name>PACOperateTime</Name>
+  <Memo>操作时间</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>16</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item7_item0_item16>
+
+
+<DataModels_item2_item0_item7_item0_item17>
+  <CTVER>43543230</CTVER>
+  <ID>18</ID>
+  <Name>PACProblemId</Name>
+  <Memo>问题Id [T_PROBLEM_INFO.Id]</Memo>
+  <CreateDate>2017/9/17 11:56:41</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>17</OrderNo>
+  <DisplayName>ProblemId</DisplayName>
+  <DataType>1</DataType>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item7_item0_item17>
+
+
+<DataModels_item2_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>T_PROBLEM_ACTION_PREVENTIVE</Name>
+  <Caption>问题预防措施表（14天）</Caption>
+  <Memo>Preventive Measures 14D</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <GraphDesc>Left=977.50
+Top=310.00</GraphDesc>
+</DataModels_item2_item0_item8>
+
+
+<DataModels_item2_item0_item8_item0>
+  <Count>17</Count>
+</DataModels_item2_item0_item8_item0>
+
+
+<DataModels_item2_item0_item8_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>问题纠正Id</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item8_item0_item1>
+
+
+<DataModels_item2_item0_item8_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>PAPWhat</Name>
+  <Memo>问题</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>What</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item8_item0_item2>
+
+
+<DataModels_item2_item0_item8_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>PAPWho</Name>
+  <Memo>处理人</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>Who</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item8_item0_item3>
+
+
+<DataModels_item2_item0_item8_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>PAPPlanDate</Name>
+  <Memo>计划时间</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>PlanDate</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>&#39;1900-01-01&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item8_item0_item4>
+
+
+<DataModels_item2_item0_item8_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>PAPActualDate</Name>
+  <Memo>处理时间</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>ActualDate</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>&#39;1900-01-01&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item8_item0_item5>
+
+
+<DataModels_item2_item0_item8_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>PAPWhere</Name>
+  <Memo>问题发生点</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>Where</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item8_item0_item6>
+
+
+<DataModels_item2_item0_item8_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>PAPAttachment</Name>
+  <Memo>附件</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>Attachment</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item8_item0_item7>
+
+
+<DataModels_item2_item0_item8_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>PAPStatus</Name>
+  <Memo>状态</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>Status</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item8_item0_item8>
+
+
+<DataModels_item2_item0_item8_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>PAPComment</Name>
+  <Memo>备注</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>Comment</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item8_item0_item9>
+
+
+<DataModels_item2_item0_item8_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>PAPIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item8_item0_item10>
+
+
+<DataModels_item2_item0_item8_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>PAPCreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/17 10:42:13</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item8_item0_item11>
+
+
+<DataModels_item2_item0_item8_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>PAPCreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/17 10:42:13</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item8_item0_item12>
+
+
+<DataModels_item2_item0_item8_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>PAPCreateTime</Name>
+  <Memo>创建时间</Memo>
+  <CreateDate>2017/9/17 10:42:14</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item8_item0_item13>
+
+
+<DataModels_item2_item0_item8_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>PAPOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item8_item0_item14>
+
+
+<DataModels_item2_item0_item8_item0_item15>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>PAPOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item8_item0_item15>
+
+
+<DataModels_item2_item0_item8_item0_item16>
+  <CTVER>43543230</CTVER>
+  <ID>17</ID>
+  <Name>PAPOperateTime</Name>
+  <Memo>操作时间</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>16</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item8_item0_item16>
+
+
+<DataModels_item2_item0_item8_item0_item17>
+  <CTVER>43543230</CTVER>
+  <ID>18</ID>
+  <Name>PAPProblemId</Name>
+  <Memo>问题Id [T_PROBLEM_INFO.Id]</Memo>
+  <CreateDate>2017/9/17 11:56:41</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>17</OrderNo>
+  <DisplayName>ProblemId</DisplayName>
+  <DataType>1</DataType>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item8_item0_item17>
+
+
+<DataModels_item2_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>T_PROBLEM_LAYEREDAUDIT</Name>
+  <Caption>问题分布审核表（14天）</Caption>
+  <Memo>Verification (34D)</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <GraphDesc>Left=10.00
+Top=310.00</GraphDesc>
+</DataModels_item2_item0_item9>
+
+
+<DataModels_item2_item0_item9_item0>
+  <Count>17</Count>
+</DataModels_item2_item0_item9_item0>
+
+
+<DataModels_item2_item0_item9_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>问题纠正Id</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item9_item0_item1>
+
+
+<DataModels_item2_item0_item9_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>PLWhat</Name>
+  <Memo>问题</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>What</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item9_item0_item2>
+
+
+<DataModels_item2_item0_item9_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>PLWho</Name>
+  <Memo>处理人</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>Who</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item9_item0_item3>
+
+
+<DataModels_item2_item0_item9_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>PLPlanDate</Name>
+  <Memo>计划时间</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>PlanDate</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>&#39;1900-01-01&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item9_item0_item4>
+
+
+<DataModels_item2_item0_item9_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>PLActualDate</Name>
+  <Memo>处理时间</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>ActualDate</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>&#39;1900-01-01&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item9_item0_item5>
+
+
+<DataModels_item2_item0_item9_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>PLWhere</Name>
+  <Memo>问题发生点</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>Where</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item9_item0_item6>
+
+
+<DataModels_item2_item0_item9_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>PLAttachment</Name>
+  <Memo>附件</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>Attachment</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item9_item0_item7>
+
+
+<DataModels_item2_item0_item9_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>PLStatus</Name>
+  <Memo>状态</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>Status</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item9_item0_item8>
+
+
+<DataModels_item2_item0_item9_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>PLComment</Name>
+  <Memo>备注</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>Comment</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item9_item0_item9>
+
+
+<DataModels_item2_item0_item9_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>PLIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item9_item0_item10>
+
+
+<DataModels_item2_item0_item9_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>PLCreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/17 10:42:13</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item9_item0_item11>
+
+
+<DataModels_item2_item0_item9_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>PLCreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/17 10:42:13</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item9_item0_item12>
+
+
+<DataModels_item2_item0_item9_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>PLCreateTime</Name>
+  <Memo>创建时间</Memo>
+  <CreateDate>2017/9/17 10:42:14</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item9_item0_item13>
+
+
+<DataModels_item2_item0_item9_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>PLOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item9_item0_item14>
+
+
+<DataModels_item2_item0_item9_item0_item15>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>PLOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item9_item0_item15>
+
+
+<DataModels_item2_item0_item9_item0_item16>
+  <CTVER>43543230</CTVER>
+  <ID>17</ID>
+  <Name>PLOperateTime</Name>
+  <Memo>操作时间</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>16</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item9_item0_item16>
+
+
+<DataModels_item2_item0_item9_item0_item17>
+  <CTVER>43543230</CTVER>
+  <ID>18</ID>
+  <Name>PLProblemId</Name>
+  <Memo>问题Id [T_PROBLEM_INFO.Id]</Memo>
+  <CreateDate>2017/9/17 11:56:41</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>17</OrderNo>
+  <DisplayName>ProblemId</DisplayName>
+  <DataType>1</DataType>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item9_item0_item17>
+
+
+<DataModels_item2_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>T_PROBLEM_VERIFICATION</Name>
+  <Caption>问题验证表（34天）</Caption>
+  <Memo>Verification (34D)</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <GraphDesc>Left=347.50
+Top=360.00</GraphDesc>
+</DataModels_item2_item0_item10>
+
+
+<DataModels_item2_item0_item10_item0>
+  <Count>17</Count>
+</DataModels_item2_item0_item10_item0>
+
+
+<DataModels_item2_item0_item10_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>问题验证Id</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item10_item0_item1>
+
+
+<DataModels_item2_item0_item10_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>PVWhat</Name>
+  <Memo>问题</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>What</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item10_item0_item2>
+
+
+<DataModels_item2_item0_item10_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>PVWho</Name>
+  <Memo>处理人</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>Who</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item10_item0_item3>
+
+
+<DataModels_item2_item0_item10_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>PVPlanDate</Name>
+  <Memo>计划时间</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>PlanDate</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>&#39;1900-01-01&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item10_item0_item4>
+
+
+<DataModels_item2_item0_item10_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>PVActualDate</Name>
+  <Memo>处理时间</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>ActualDate</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>&#39;1900-01-01&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item10_item0_item5>
+
+
+<DataModels_item2_item0_item10_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>PVWhere</Name>
+  <Memo>问题发生点</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>Where</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item10_item0_item6>
+
+
+<DataModels_item2_item0_item10_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>PVAttachment</Name>
+  <Memo>附件</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>Attachment</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item10_item0_item7>
+
+
+<DataModels_item2_item0_item10_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>PVStatus</Name>
+  <Memo>状态</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>Status</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item10_item0_item8>
+
+
+<DataModels_item2_item0_item10_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>PVComment</Name>
+  <Memo>备注</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>Comment</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item10_item0_item9>
+
+
+<DataModels_item2_item0_item10_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>PVIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item10_item0_item10>
+
+
+<DataModels_item2_item0_item10_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>PVCreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/17 10:42:13</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item10_item0_item11>
+
+
+<DataModels_item2_item0_item10_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>PVCreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/17 10:42:13</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item10_item0_item12>
+
+
+<DataModels_item2_item0_item10_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>PVCreateTime</Name>
+  <Memo>创建时间</Memo>
+  <CreateDate>2017/9/17 10:42:14</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item10_item0_item13>
+
+
+<DataModels_item2_item0_item10_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>PVOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item10_item0_item14>
+
+
+<DataModels_item2_item0_item10_item0_item15>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>PVOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item10_item0_item15>
+
+
+<DataModels_item2_item0_item10_item0_item16>
+  <CTVER>43543230</CTVER>
+  <ID>17</ID>
+  <Name>PVOperateTime</Name>
+  <Memo>操作时间</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>16</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item10_item0_item16>
+
+
+<DataModels_item2_item0_item10_item0_item17>
+  <CTVER>43543230</CTVER>
+  <ID>18</ID>
+  <Name>PVProblemId</Name>
+  <Memo>问题Id [T_PROBLEM_INFO.Id]</Memo>
+  <CreateDate>2017/9/17 11:56:41</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>17</OrderNo>
+  <DisplayName>ProblemId</DisplayName>
+  <DataType>1</DataType>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item10_item0_item17>
+
+
+<DataModels_item2_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>T_PROBLEM_STANDARDIZATION</Name>
+  <Caption>问题标准化表（35天）</Caption>
+  <Memo>Standardization (35D)</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <GraphDesc>Left=1022.50
+Top=910.00</GraphDesc>
+</DataModels_item2_item0_item11>
+
+
+<DataModels_item2_item0_item11_item0>
+  <Count>19</Count>
+</DataModels_item2_item0_item11_item0>
+
+
+<DataModels_item2_item0_item11_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>问题验证Id</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item1>
+
+
+<DataModels_item2_item0_item11_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>18</ID>
+  <Name>PSItemName</Name>
+  <Memo>项目名称</Memo>
+  <CreateDate>2017/9/17 13:06:27</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>ItemName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item2>
+
+
+<DataModels_item2_item0_item11_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>19</ID>
+  <Name>PSNeedUpdate</Name>
+  <Memo>需要更新(0.否 1.是)</Memo>
+  <CreateDate>2017/9/17 13:08:12</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>NeedUpdate</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item3>
+
+
+<DataModels_item2_item0_item11_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>PSWho</Name>
+  <Memo>处理人</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>Who</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item4>
+
+
+<DataModels_item2_item0_item11_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>PSPlanDate</Name>
+  <Memo>计划时间</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>PlanDate</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>&#39;1900-01-01&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item5>
+
+
+<DataModels_item2_item0_item11_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>PSActualDate</Name>
+  <Memo>处理时间</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>ActualDate</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>&#39;1900-01-01&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item6>
+
+
+<DataModels_item2_item0_item11_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>PSDocNo</Name>
+  <Memo>文档编号</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>DocNo</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item7>
+
+
+<DataModels_item2_item0_item11_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>PSChangeContent</Name>
+  <Memo>附件</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>ChangeContent</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>500</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item8>
+
+
+<DataModels_item2_item0_item11_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>PSOldVersion</Name>
+  <Memo>旧版本</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>OldVersion</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item9>
+
+
+<DataModels_item2_item0_item11_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>PSNewVersion</Name>
+  <Memo>新版本</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>NewVersion</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item10>
+
+
+<DataModels_item2_item0_item11_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>20</ID>
+  <Name>PSAttachment</Name>
+  <Memo>附件</Memo>
+  <CreateDate>2017/9/17 13:08:57</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>Attachment</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item11>
+
+
+<DataModels_item2_item0_item11_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>PSIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/14 0:42:38</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item12>
+
+
+<DataModels_item2_item0_item11_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>PSCreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/17 10:42:13</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item13>
+
+
+<DataModels_item2_item0_item11_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>PVCreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/17 10:42:13</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item14>
+
+
+<DataModels_item2_item0_item11_item0_item15>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>PVCreateTime</Name>
+  <Memo>创建时间</Memo>
+  <CreateDate>2017/9/17 10:42:14</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item15>
+
+
+<DataModels_item2_item0_item11_item0_item16>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>PVOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>16</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item16>
+
+
+<DataModels_item2_item0_item11_item0_item17>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>PVOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>17</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item17>
+
+
+<DataModels_item2_item0_item11_item0_item18>
+  <CTVER>43543230</CTVER>
+  <ID>17</ID>
+  <Name>PVOperateTime</Name>
+  <Memo>操作时间</Memo>
+  <CreateDate>2017/9/17 10:42:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>18</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item18>
+
+
+<DataModels_item2_item0_item11_item0_item19>
+  <CTVER>43543230</CTVER>
+  <ID>18</ID>
+  <Name>PVProblemId</Name>
+  <Memo>问题Id [T_PROBLEM_INFO.Id]</Memo>
+  <CreateDate>2017/9/17 11:56:41</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>19</OrderNo>
+  <DisplayName>ProblemId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item2_item0_item11_item0_item19>
+
+
+<DataModels_item3>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>Obsolete</Name>
+  <CreateDate>2017/9/21 13:55:00</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+</DataModels_item3>
+
+
+<DataModels_item3_item0>
+  <Count>2</Count>
+</DataModels_item3_item0>
+
+
+<DataModels_item3_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>T_MATERIAL_INFO</Name>
+  <Caption>物料信息表</Caption>
+  <Memo>Maintenance Material Infomation(物料信息表)</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <GraphDesc>Left=10.00
+Top=10.00</GraphDesc>
+</DataModels_item3_item0_item1>
+
+
+<DataModels_item3_item0_item1_item0>
+  <Count>12</Count>
+</DataModels_item3_item0_item1_item0>
+
+
+<DataModels_item3_item0_item1_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>物料Id</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item1_item0_item1>
+
+
+<DataModels_item3_item0_item1_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>MICustomerPart</Name>
+  <Memo>零部件编码</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>CustomerPart</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item1_item0_item2>
+
+
+<DataModels_item3_item0_item1_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>MIProductName</Name>
+  <Memo>名称</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>ProductName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item1_item0_item3>
+
+
+<DataModels_item3_item0_item1_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>MICustomer</Name>
+  <Memo>供应商</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>Customer</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item1_item0_item4>
+
+
+<DataModels_item3_item0_item1_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>MIPicture</Name>
+  <Memo>图片地址</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>Picture</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item1_item0_item5>
+
+
+<DataModels_item3_item0_item1_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>MIIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item1_item0_item6>
+
+
+<DataModels_item3_item0_item1_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>MICreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item1_item0_item7>
+
+
+<DataModels_item3_item0_item1_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>MICreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item1_item0_item8>
+
+
+<DataModels_item3_item0_item1_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>MICreateTime</Name>
+  <Memo>创建日期</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item1_item0_item9>
+
+
+<DataModels_item3_item0_item1_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>MIOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item1_item0_item10>
+
+
+<DataModels_item3_item0_item1_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>MIOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/6 23:22:22</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item1_item0_item11>
+
+
+<DataModels_item3_item0_item1_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>MIOperateTime</Name>
+  <Memo>操作日期</Memo>
+  <CreateDate>2017/9/13 23:32:37</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item1_item0_item12>
+
+
+<DataModels_item3_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>T_MATERIAL_WORKORDER</Name>
+  <Caption>物料工单表</Caption>
+  <Memo>Material WorkOrder Info</Memo>
+  <CreateDate>2017/9/13 23:47:58</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <GraphDesc>Left=325.00
+Top=10.00</GraphDesc>
+</DataModels_item3_item0_item2>
+
+
+<DataModels_item3_item0_item2_item0>
+  <Count>14</Count>
+</DataModels_item3_item0_item2_item0>
+
+
+<DataModels_item3_item0_item2_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>Id</Name>
+  <Memo>订单表Id</Memo>
+  <CreateDate>2017/9/13 23:47:58</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>Id</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item2_item0_item1>
+
+
+<DataModels_item3_item0_item2_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>MWMaterialId</Name>
+  <Memo>物料Id [T_MATERIAL_INFO.Id]</Memo>
+  <CreateDate>2017/9/13 23:47:58</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>MaterialId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item2_item0_item2>
+
+
+<DataModels_item3_item0_item2_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>MWWorkOrder</Name>
+  <Memo>工单号</Memo>
+  <CreateDate>2017/9/13 23:47:58</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>WorkOrder</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item2_item0_item3>
+
+
+<DataModels_item3_item0_item2_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>MWMaterial</Name>
+  <Memo>?</Memo>
+  <CreateDate>2017/9/13 23:47:58</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>Material</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item2_item0_item4>
+
+
+<DataModels_item3_item0_item2_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>MWMaterialText</Name>
+  <Memo>?</Memo>
+  <CreateDate>2017/9/13 23:47:58</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>MaterialText</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item2_item0_item5>
+
+
+<DataModels_item3_item0_item2_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>MWTool</Name>
+  <Memo>工具</Memo>
+  <CreateDate>2017/9/13 23:47:58</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>Tool</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item2_item0_item6>
+
+
+<DataModels_item3_item0_item2_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>MWTotalQty</Name>
+  <Memo>数量</Memo>
+  <CreateDate>2017/9/13 23:47:58</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>TotalQty</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>int</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item2_item0_item7>
+
+
+<DataModels_item3_item0_item2_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>MWIsValid</Name>
+  <Memo>有效性（0.无效 1.有效）</Memo>
+  <CreateDate>2017/9/13 23:47:58</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>IsValid</DisplayName>
+  <DataType>6</DataType>
+  <DataTypeName>tinyint</DataTypeName>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item2_item0_item8>
+
+
+<DataModels_item3_item0_item2_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>MWCreateUserId</Name>
+  <Memo>创建人Id</Memo>
+  <CreateDate>2017/9/13 23:47:58</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>CreateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item2_item0_item9>
+
+
+<DataModels_item3_item0_item2_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>MWCreateUserName</Name>
+  <Memo>创建人姓名</Memo>
+  <CreateDate>2017/9/13 23:47:58</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>CreateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item2_item0_item10>
+
+
+<DataModels_item3_item0_item2_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>MWCreateTime</Name>
+  <Memo>创建日期</Memo>
+  <CreateDate>2017/9/13 23:47:58</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>CreateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item2_item0_item11>
+
+
+<DataModels_item3_item0_item2_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>23</ID>
+  <Name>MWOperateUserId</Name>
+  <Memo>操作人Id</Memo>
+  <CreateDate>2017/9/13 23:56:04</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>OperateUserId</DisplayName>
+  <DataType>2</DataType>
+  <DataTypeName>bigint</DataTypeName>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item2_item0_item12>
+
+
+<DataModels_item3_item0_item2_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>24</ID>
+  <Name>MWOperateUserName</Name>
+  <Memo>操作人姓名</Memo>
+  <CreateDate>2017/9/13 23:58:45</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DisplayName>OperateUserName</DisplayName>
+  <DataType>1</DataType>
+  <DataTypeName>nvarchar</DataTypeName>
+  <DefaultValue>&#39;&#39;</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item2_item0_item13>
+
+
+<DataModels_item3_item0_item2_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>25</ID>
+  <Name>MWOperateTime</Name>
+  <Memo>操作日期</Memo>
+  <CreateDate>2017/9/13 23:58:45</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DisplayName>OperateTime</DisplayName>
+  <DataType>4</DataType>
+  <DataTypeName>datetime</DataTypeName>
+  <DefaultValue>getdate()</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item3_item0_item2_item0_item14>
+
+
+</CTOXML>

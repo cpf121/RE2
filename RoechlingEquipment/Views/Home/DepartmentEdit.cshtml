@@ -1,0 +1,53 @@
+﻿@using Common
+@{
+    ViewBag.Title = "DepartmentEdit";
+}
+
+<script src="@Url.Content("~/Content/assets/vendor/js/jquery-2.1.1.min.js")"></script>
+@Html.RenderCss("/Content/assets/vendor/bootstrap/css/bootstrap.min.css", "/Content/assets/css/style.css", "/Content/assets/css/add-ons.min.css", "/Content/assets/plugins/magnific-popup/css/magnific-popup.css")
+
+@model Model.ViewModel.Department.DepartmentInfo
+@Html.HiddenFor(model=>model.Id)
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h2 class="panel-title">Create Department</h2>
+    </div>
+    <div class="panel-body bk-noradius">
+        <form id="dpCreate" class="form-horizontal mb-lg" novalidate="novalidate">
+            <div class="form-group">
+                <label class="col-sm-3 control-label">部门名称</label>
+                <div class="col-sm-9">
+                    <input type="text" name="Name" class="form-control" placeholder="部门名称" maxlength="50" id="departmentName" value="@Model.Name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">上级部门名称</label>
+                <div class="col-sm-9">
+                    <input type="text" name="ParentName" class="form-control" placeholder="上级部门名称" disabled="disabled" value="@Model.ParentName" id="ParentName">
+                    <input type="hidden" value="@Model.ParentId" id="ParentId" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">部门描述</label>
+                <div class="col-sm-9">
+                    <textarea rows="5" class="form-control" placeholder="部门描述" id="DepartDesc" maxlength="200">@Model.Description</textarea>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="panel-footer">
+        <div class="row">
+            <div class="col-md-12 text-right">
+                <button class="btn btn-primary modal-confirm">确定</button>
+                <button class="btn btn-default modal-dismiss">取消</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@Html.RenderJs("/Content/assets/plugins/pnotify/js/pnotify.custom.js", "/Content/assets/plugins/magnific-popup/js/magnific-popup.js", "/Content/Home/DepartmentEdit.js")
+<script>
+    var basePath = '@Url.Content("~/")';
+    var culture='@CultureHelper.GetCurrentCulture()';
+    PageInit();
+</script>

@@ -1,0 +1,194 @@
+.tree {
+    margin: 10px;
+    padding: 10px;
+    background: #F5F5F5;
+    border: 1px solid #CCCCCC;
+}
+
+.tree li {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 5px 0 5px;
+    position: relative;
+    float: none
+}
+
+.tree li::before,
+.tree li::after {
+    content: '';
+    left: -20px;
+    position: absolute;
+    right: auto
+}
+
+.tree li::before {
+    border-left: 1px solid #999;
+    bottom: 50px;
+    height: 100%;
+    top: 0;
+    width: 1px
+}
+
+.tree li::after {
+    border-top: 1px solid #999;
+    height: 20px;
+    top: 25px;
+    width: 25px
+}
+
+.tree li span {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 3px 8px;
+    text-decoration: none
+}
+
+.tree li.parent_li>span {
+    cursor: pointer
+}
+
+.tree>ul>li::before,
+.tree>ul>li::after {
+    border: 0
+}
+
+.tree li:last-child::before {
+    height: 30px
+}
+
+.tree li.parent_li>span:hover,
+.tree li.parent_li>span:hover+ul li span {
+    background: #eee;
+    border: 1px solid #94a0b4;
+    color: #000
+}
+
+.btnnew {
+    font-size: 12px;
+    line-height: 28px;
+    height: 28px;
+    background: #3eafe0;
+    padding: 0 10px;
+    margin: 0 0 0 6px;
+    font-weight: bold;
+    color: #FFF;
+    border: 0px;
+    cursor: pointer;
+}
+
+.btnnew:hover {
+    background: #368DD9;
+    text-decoration: none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.deleteColor {
+    background: #C83B05;
+}
+
+.deleteColor:hover {
+    background: #9B1903;
+}
+
+.green {
+    background: #8AB923;
+}
+
+.green:hover {
+    background: #729B13;
+}
+
+span.inValid {
+    color: #999;
+    font-family: 'Microsoft YaHei';
+    /*font-style: oblique;*/
+}
+
+.tree li.parent_li>span.inValid:hover {
+    color: grey;
+}
+
+.switch {
+    float: left;
+    padding: 19px 20px;
+    width: 28px;
+    height: 28px;
+}
+
+.switch label {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    background: #eaeaea;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -5px 5px rgba(100, 100, 100, 0.1), inset 0 5px 5px rgba(255, 255, 255, 0.3);
+}
+
+.switch input {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+.switch label:after {
+    content: "";
+    position: absolute;
+    top: -8%;
+    right: -8%;
+    bottom: -8%;
+    left: -8%;
+    z-index: -1;
+    border-radius: inherit;
+    background: #ddd;
+    background: -moz-linear-gradient(#ccc, #fff);
+    background: -ms-linear-gradient(#ccc, #fff);
+    background: -o-linear-gradient(#ccc, #fff);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ccc), to(#fff));
+    background: -webkit-linear-gradient(#ccc, #fff);
+    background: linear-gradient(#ccc, #fff);
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.15), 0 2px 5px rgba(200, 200, 200, 0.1);
+}
+
+.switch label:before {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: inherit;
+    left: 40%;
+    top: 40%;
+    background: #969696;
+    background: radial-gradient(40% 35%, #ccc, #969696 60%);
+    box-shadow: inset 0 2px 4px 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 1), inset 0 1px 0 white;
+}
+
+.switch input:checked ~ label {
+    background: #dedede;
+    background: -moz-linear-gradient(#dedede, #fdfdfd);
+    background: -ms-linear-gradient(#dedede, #fdfdfd);
+    background: -o-linear-gradient(#dedede, #fdfdfd);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#dedede), to(#fdfdfd));
+    background: -webkit-linear-gradient(#dedede, #fdfdfd);
+    background: linear-gradient(#dedede, #fdfdfd);
+}
+
+.switch input:checked ~ label:before {
+    background: #25d025;
+    background: radial-gradient(40% 35%, #5aef5a, #25d025 60%);
+    box-shadow: inset 0 3px 5px 1px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.4), 0 0 10px 2px rgba(0, 210, 0, 0.5);
+}
+
+body {
+    overflow-x: hidden;
+}

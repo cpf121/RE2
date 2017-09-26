@@ -1,0 +1,81 @@
+﻿<form id="material-form" class="form-horizontal" novalidate="novalidate">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h6><i class="fa  fa-check-circle-o bk-fg-warning"></i>Add Material</h6>
+            <div class="panel-actions">
+                <input type="hidden" id="MIId" value="0" />
+            </div>
+        </div>
+        <input type="hidden" id="id" />
+        <div class="panel-body">
+            <div class="form-group">
+                <label for="MICustomerPart" class="col-md-3 control-label">CustomerPart<span class="required">*</span></label>
+                <div class="col-md-5">
+                    <input type="text" id="MICustomerPart" name="MICustomerPart" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label" for="MIProductName">ProductName <span class="required">*</span> </label>
+                <div class="col-sm-5">
+                    <input type="text" id="MIProductName" name="MIProductName" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Customer <span class="required">*</span></label>
+                <div class="col-sm-5">
+                    <input type="text" id="MICustomer" name="MICustomer" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Picture <span class="required">*</span></label>
+                <div class="col-sm-5">
+                    <input type="text" id="MIPicture" name="MIPicture" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">IsValid </label>
+                <div class="col-sm-5" id="IsValid">
+                    <label><input type="radio" name="MIIsValid" value="true" checked>Yes</label>&nbsp;&nbsp;&nbsp;
+                    <label><input type="radio" name="MIIsValid" value="false">No</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">WorkOrder <span class="required">*</span></label>
+                <div class="col-sm-5">
+                    <input type="text" id="MIWorkOrder" name="MIWorkOrder" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Material <span class="required">*</span></label>
+                <div class="col-sm-5">
+                    <input type="text" id="MIMaterial" name="MIMaterial" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">MaterialText <span class="required">*</span></label>
+                <div class="col-sm-5">
+                    <input type="text" id="MIMaterialText" name="MIMaterialText" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Tool <span class="required">*</span></label>
+                <div class="col-sm-5">
+                    <input type="text" id="MITool" name="MITool" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">TotalQty <span class="required">*</span></label>
+                <div class="col-sm-5">
+                    <input type="number" id="MITotalQty" name="MITotalQty" class="form-control" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-9 col-sm-offset-3">
+                    <button class="bk-margin-5 btn btn-info" id="addOrUpdateClick">Submit</button>
+                    <button type="reset" class="bk-margin-5 btn btn-default">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

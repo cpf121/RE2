@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic -->
+    <meta charset="UTF-8" />
+
+    <title>Dashboard | Fire - Admin Template</title>
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Import google fonts -->
+    <!--  <link href='http://fonts.useso.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>-->
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="@Url.Content("~/Content/assets/ico/favicon.ico")" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="@Url.Content("~/Content/assets/ico/apple-touch-icon.png")" />
+    <link rel="apple-touch-icon" sizes="57x57" href="@Url.Content("~/Content/assets/ico/apple-touch-icon-57x57.png")" />
+    <link rel="apple-touch-icon" sizes="72x72" href="@Url.Content("~/Content/assets/ico/apple-touch-icon-72x72.png")" />
+    <link rel="apple-touch-icon" sizes="76x76" href="@Url.Content("~/Content/assets/ico/apple-touch-icon-76x76.png")" />
+    <link rel="apple-touch-icon" sizes="114x114" href="@Url.Content("~/Content/assets/ico/apple-touch-icon-114x114.png")" />
+    <link rel="apple-touch-icon" sizes="120x120" href="@Url.Content("~/Content/assets/ico/apple-touch-icon-120x120.png")" />
+    <link rel="apple-touch-icon" sizes="144x144" href="@Url.Content("~/Content/assets/ico/apple-touch-icon-144x144.png")" />
+    <link rel="apple-touch-icon" sizes="152x152" href="@Url.Content("~/Content/assets/ico/apple-touch-icon-152x152.png")" />
+
+    <!-- start: CSS file-->
+    <!-- Vendor CSS-->
+    <link href="@Url.Content("~/Content/assets/vendor/bootstrap/css/bootstrap.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/assets/vendor/skycons/css/skycons.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/assets/vendor/font-awesome/css/font-awesome.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/assets/vendor/css/pace.preloader.css")" rel="stylesheet" />
+
+    <!-- Plugins CSS-->
+    <link href="@Url.Content("~/Content/assets/plugins/jquery-ui/css/jquery-ui-1.10.4.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/assets/plugins/scrollbar/css/mCustomScrollbar.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/assets/plugins/bootkit/css/bootkit.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/assets/plugins/magnific-popup/css/magnific-popup.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/assets/plugins/fullcalendar/css/fullcalendar.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/assets/plugins/jqvmap/jqvmap.css")" rel="stylesheet" />
+
+    <!-- Theme CSS -->
+    <link href="@Url.Content("~/Content/assets/css/jquery.mmenu.css")" rel="stylesheet" />
+
+    <!-- Page CSS -->
+    <link href="@Url.Content("~/Content/assets/css/style.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/assets/css/add-ons.min.css")" rel="stylesheet" />
+
+    <!-- end: CSS file-->
+    <!-- Head Libs -->
+    <script src="@Url.Content("~/Content/assets/plugins/modernizr/js/modernizr.js")"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- start: JavaScript-->
+    <!-- Vendor JS-->
+    <script src="@Url.Content("~/Content/assets/vendor/js/jquery.min.js")"></script>
+    <script src="@Url.Content("~/Content/assets/vendor/js/jquery-2.1.1.min.js")"></script>
+    <script src="@Url.Content("~/Content/assets/vendor/js/jquery-migrate-1.2.1.min.js")"></script>
+    <script src="@Url.Content("~/Content/assets/vendor/bootstrap/js/bootstrap.min.js")"></script>
+    <script src="@Url.Content("~/Content/assets/vendor/skycons/js/skycons.js")"></script>
+    <script src="@Url.Content("~/Content/assets/vendor/js/pace.min.js")"></script>
+
+    <!-- Plugins JS-->
+    <script src="@Url.Content("~/Content/assets/plugins/jquery-ui/js/jquery-ui-1.10.4.min.js")"></script>
+    <script src="@Url.Content("~/Content/assets/plugins/scrollbar/js/jquery.mCustomScrollbar.concat.min.js")"></script>
+    <script src="@Url.Content("~/Content/assets/plugins/bootkit/js/bootkit.js")"></script>
+    <script src="@Url.Content("~/Content/assets/plugins/magnific-popup/js/magnific-popup.js")"></script>
+    <script src="@Url.Content("~/Content/assets/plugins/moment/js/moment.min.js")"></script>
+    <script src="@Url.Content("~/Content/assets/plugins/fullcalendar/js/fullcalendar.js")"></script>
+    <script src="@Url.Content("~/Content/assets/plugins/flot/js/jquery.flot.min.js")"></script>
+    <script src="@Url.Content("~/Content/assets/plugins/flot/js/jquery.flot.pie.min.js")"></script>
+    <script src="@Url.Content("~/Content/assets/plugins/flot/js/jquery.flot.resize.min.js")"></script>
+    <script src="@Url.Content("~/Content/assets/plugins/flot/js/jquery.flot.stack.min.js")"></script>
+    <script src="@Url.Content("~/Content/assets/plugins/flot/js/jquery.flot.time.min.js")"></script>
+    <script src="@Url.Content("~/Content/assets/plugins/flot-tooltip/js/jquery.flot.tooltip.js")"></script>
+    <script src="@Url.Content("~/Content/assets/plugins/chart-master/js/Chart.js")"></script>
+    <script src="@Url.Content("~/Content/assets/plugins/jqvmap/jquery.vmap.js")"></script>
+    <script src="@Url.Content("~/Content/assets/plugins/jqvmap/data/jquery.vmap.sampledata.js")"></script>
+    <script src="@Url.Content("~/Content/assets/plugins/jqvmap/maps/jquery.vmap.world.js")"></script>
+    <script src="@Url.Content("~/Content/assets/plugins/sparkline/js/jquery.sparkline.min.js")"></script>
+
+    <!-- Theme JS -->
+    <script src="@Url.Content("~/Content/assets/js/jquery.mmenu.min.js")"></script>
+    <script src="@Url.Content("~/Content/assets/js/core.min.js")"></script>
+
+    <script src="@Url.Content("~/Content/assets/plugins/jquery-validation/js/jquery.validate.js")"></script>
+
+</head>
+<body onload="return resizeFrame()">
+    <script type="text/javascript">
+
+        (function ($) {
+            //resizeFrame();
+        })(jQuery);
+        function resizeFrame() {
+            frameElement.width = document.documentElement.offsetWidth;
+            frameElement.height = document.documentElement.offsetHeight;
+        }
+
+        function resizeFrameAsyn() {
+            setTimeout(function () {
+                resizeFrame();
+            }, 200);
+        }
+    </script>
+
+    @RenderBody()
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+﻿@using Model.Material;
+@model MaterialSearchResultModel
+
+@{
+    ViewBag.Title = "Search";
+}
+
+
+<table class="table table-bordered table-striped mb-none dataTable no-footer" id="datatable-tabletools" role="grid" aria-describedby="datatable-tabletools_info">
+    <thead>
+        <tr role="row">
+            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 110px;">CustomerPart</th>
+            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 110px;">WorkOrder#</th>
+            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 152px;">Material</th>
+            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 152px;">MaterialText</th>
+            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 152px;">Tool#</th>
+            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 152px;">MITotalQty</th>
+            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 140px;">CreateUser</th>
+            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 150px;">OperateTime</th>
+            <th class="sorting" tabindex="0" rowspan="1" colspan="1" style="width: 152px;">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @if (Model.Models != null)
+        {
+            foreach (var item in Model.Models)
+            {
+                <tr class="gradeA odd" role="row">
+                    <td>@item.MICustomerPart</td>
+                    <td>@item.MIWorkOrder</td>
+                    <td>@item.MIMaterial</td>
+                    <td>@item.MIMaterialText</td>
+                    <td>@item.MITool</td>
+                    <td>@item.MITotalQty</td>
+                    <td>@item.MICreateUserName</td>
+                    <td>@item.MIOperateTime</td>
+                    <td><button type="button" class="bk-margin-5 btn btn-link btn-xs" onclick="EditMaterial(@item.Id)">Edit</button></td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td style="text-align:center">NoResult</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<!-- pager -->
+@if (Model.Page.EndPage >= 1)
+{
+    <ul class="pagination">
+        @if (Model.Page.CurrentPage > 1)
+        {
+            <li>
+                <a href="javascript:void(0)" onclick="SearchMaterialList(1)">First</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)" onclick="SearchMaterialList(@(Model.Page.CurrentPage - 1))">Previous</a>
+            </li>
+        }
+
+        @for (var page = Model.Page.StartPage; page <= Model.Page.EndPage; page++)
+        {
+            <li class="@(page == Model.Page.CurrentPage ? "active" : "")">
+                <a href="javascript:void(0)" onclick="SearchMaterialList(@page)">@page</a>
+            </li>
+        }
+        @if (Model.Page.CurrentPage < Model.Page.TotalPages)
+        {
+            <li>
+                <a href="javascript:void(0)" onclick="SearchMaterialList(@(Model.Page.CurrentPage + 1))">Next</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)" onclick="SearchMaterialList(@(Model.Page.TotalPages))">Last</a>
+            </li>
+        }
+    </ul>
+}
+
+    @*<div class="dataTables_paginate paging_bs_normal" id="material-tabletools_paginate">
+            <ul class="pagination">
+                <li class="prev disabled"><a href="#"><span class="fa fa-chevron-left"></span></a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li class="next"><a href="#"><span class="fa fa-chevron-right"></span></a></li>
+            </ul>
+        </div>*@

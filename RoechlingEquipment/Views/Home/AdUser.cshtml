@@ -1,0 +1,109 @@
+﻿@using Common
+@{
+    ViewBag.Title = "Aduser";
+}
+@model Model.TableModel.User
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h2 class="panel-title">AdUser</h2>
+    </div>
+    <div class="panel-body bk-noradius">
+        <form id="userAdd" class="form-horizontal mb-lg" novalidate="novalidate">
+            <div class="form-group">
+                <label class="col-sm-3 control-label">姓</label>
+                <div class="col-sm-9">
+                    <input type="text" name="surname" class="form-control" placeholder="Surname" maxlength="20" id="surname">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">名</label>
+                <div class="col-sm-9">
+                    <input type="text" name="givenname" class="form-control" placeholder="Givenname" maxlength="20" id="givenname">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">工号</label>
+                <div class="col-sm-9">
+                    <input type="text" name="jobNumber" class="form-control" placeholder="JobNumber" maxlength="20" id="jobNumber">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">性别</label>
+                <div class="col-sm-9">
+                    <div class="radio-custom radio-inline">
+                        <input type="radio" id="man" name="sex-radios" value="1" checked>
+                        <label for="man"> 男</label>
+                    </div>
+                    <div class="radio-custom radio-inline">
+                        <input type="radio" id="woman" name="sex-radios" value="2" >
+                        <label for="woman"> 女</label>
+                    </div>
+                    <div class="radio-custom radio-inline">
+                        <input type="radio" id="other" name="sex-radios" value="0" >
+                        <label for="other"> 其他</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">状态</label>
+                <div class="col-sm-9">
+                    <div class="radio-custom radio-inline">
+                        <input type="radio" id="man" name="valid-radios" value="1" checked>
+                        <label for="man"> 在职</label>
+                    </div>
+                    <div class="radio-custom radio-inline">
+                        <input type="radio" id="woman" name="valid-radios" value="0">
+                        <label for="woman"> 离职</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">头像</label>
+                <div class="col-sm-9">
+                    <input type="text" name="avatars" class="form-control" placeholder="Avatars"  id="avatars">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">电话</label>
+                <div class="col-sm-9">
+                    <input type="text" name="phoneNum" class="form-control" placeholder="BUPhoneNum" maxlength="11" id="phoneNum">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">邮箱</label>
+                <div class="col-sm-9">
+                    <input type="text" name="email" class="form-control" placeholder="email" maxlength="50" id="email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">所属部门</label>
+                <div class="col-sm-9">
+                    @Html.DropDownList("depart", ViewBag.dpList as IEnumerable<SelectListItem>,new { @id = "depart",@class= "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">岗位头衔</label>
+                <div class="col-sm-9">
+                    <input type="text" name="title" class="form-control" placeholder="title" maxlength="50" id="title">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="panel-footer">
+        <div class="row">
+            <div class="col-md-12 text-right">
+                <button class="btn btn-primary modal-confirm">确定</button>
+                <button class="btn btn-default modal-dismiss">取消</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var basePath = '@Url.Content("~/")';
+    var culture='@CultureHelper.GetCurrentCulture()';
+    PageInit({
+        userId: '@ViewBag.userId'
+    });
+</script>
